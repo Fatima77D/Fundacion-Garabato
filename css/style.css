@@ -1,0 +1,401 @@
+/* 
+-------------------------
+EN TODAS LAS PAGINAS
+-------------------------
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300;400;500&family=Raleway:wght@200;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{scroll-behavior: smooth;}
+
+/* BODY */
+
+body{
+    color: rgb(48, 48, 48);
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    background: whitesmoke;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+img[alt="Logo-Garabato"]{
+    width: 80px;
+    height: 80px;
+}
+
+/* HEADER */
+
+header{
+    width: 100vw;
+    height: 104px;
+    background-color: #93C198;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+header a{
+    font-weight: normal;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+header a img{
+    vertical-align: middle;
+    margin: 0px 16px;
+}
+
+header a span{
+    width: 200px;
+}
+header nav a{
+    padding: 8px;
+    display: inline;
+    margin-right: 16px;
+}
+
+
+main{
+    width: 100vw;
+    margin: auto;
+    min-height: 550px;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+
+/*FOOTER*/
+footer{
+    width: 100vw;
+    height: 150px;
+    background-color: #5D7E60;
+    margin: auto;
+    padding: 0px 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a{
+    font-weight: normal;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+footer a img{
+    vertical-align: middle;
+    margin: 0px 16px;
+}
+
+footer a span{
+    width: 200px;
+}
+
+footer nav a{
+    padding: 8px;
+    display: inline;
+    margin-right: 16px;
+}
+
+
+
+/* INDEX */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+}
+/* -- carrusel -- */
+.carousel-conteiner{
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+    max-width: 100vw;
+    height: 500px;
+    margin: 0;
+    flex-shrink: 0;
+
+}
+
+.carousel-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500%;
+    height: 100%;
+}
+
+.slider{
+    width: calc(100% / 5);
+    height: 100%;
+}
+
+.slider img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* quienes somos */
+#quienes-somos{
+    width: 100vw;
+    height: 435px;
+    background-color: #93C198;
+    padding-top: 100px;
+
+}
+#quienes-somos h2{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#quienes-somos p{
+    font-size: 25px;
+    text-align: center;
+    padding: 30px;
+}
+
+/* dona ahora */
+#dona-ahora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#dona-ahora a{
+    font-size: 40px;
+    font-weight: 600;
+    width: 449px;
+    height: 120px;
+    background-color: #5D7E60;
+    text-align: center;
+    line-height: 3;
+    border-radius: 10px;
+}
+
+/* monte nativo */
+
+#info-monte-nativo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 60px;
+    
+}
+
+#info-monte-nativo article{
+    width: 350px;
+    height: 612px;
+    background-color: #93C198;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#info-monte-nativo p{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+#info-monte-nativo img{
+    padding-top: 50px;
+}
+
+/* sumate y asociate */
+#sumate-asociate-calcula{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0;
+}
+
+#sumate-asociate-calcula a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    width: 449px;
+    height: 100px;
+    background-color: #5D7E60;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 50px;
+}
+
+#sumate-asociate-calcula a:nth-child(2){
+    padding-top: 30px;
+}
+
+/* ACCIONES */
+#hero-banner-acciones{
+    width: 1024;
+    height: 450px;
+    background-image: url(../imgs/img\ del\ carruser.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding-left: 130px;
+}
+
+.arriba{
+    margin: 90px;
+    color: black;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center center;
+}
+
+.abajo{
+    margin: 90px;
+    color: black;
+    padding-top: 30px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center center;
+}
+
+.arriba img {
+    padding: 30px;
+}
+
+.abajo img {
+    padding: 70px;
+}
+
+.arriba a{
+    color: black;
+}
+
+.abajo a{
+    color: black;
+}
+
+/* CONTACTOS */
+
+#contacto{
+    text-align: center;
+    margin-top: 93px;
+    margin-bottom: 55px;
+    color: #000;
+
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+}
+#par{
+    font-size: 30px;
+    font-weight: 400;
+
+    width: 900px;
+    height: 72px;
+    margin-left: 100px;
+}
+
+#redes{
+    display: grid;
+    grid-template-columns: repeat(2, 275px);
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+    #redes a{
+        display: grid;
+        grid-template-columns: max-content;
+        justify-content: center;
+        text-align: center;
+
+    }
+    #redes #mail{
+        padding-left: 275px;
+    }
+
+/*FORMULARIO*/
+#forms{
+    height: 500px;
+    background-color: whitesmoke;
+    display: flex;
+    width: 1100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#forms legend{
+    padding: 8px;
+    text-align: center;
+}
+#forms h1{
+    padding: 10px 10px;
+}
+#forms fieldset{
+    width: 700px;
+    justify-content: center;
+    padding: 10px;
+}
+
+#forms input {
+    height: auto;
+    width: auto;
+    margin: 0.8rem;
+
+  }
+
+#forms #botonForms{
+    background-color: #93C198; /* Color de fondo */
+    color: black; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    display: block;
+    margin: 15px auto; 
+    cursor: pointer;
+    
+}
+
+/* dona link MP */
+
+.dona .container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.dona .container .donar-button {
+    display: inline-block;
+    background-color: #93C198;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.donate-button:hover {
+    background-color: #93C198;
+}
