@@ -12,110 +12,68 @@
 <body>
 
     <!-- COMIENZO HEADER -->
-
-    <header>
-        <!--logo + empresa-->
-        <a href="index.html">
-            <img src="logos/logo_fundacion_Garabato.png" alt="Logo-Garabato">
-            <span>
-                FUNDACIÓN GARABATO
-                Cuna de nativos
-            </span>
-        </a>
-
-        <!--NAVEGACION-->
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="#quienes-somos">Somos</a>
-            <a href="acciones.html">Acciones</a>
-            <a href="contacto.html">Contacto</a>
-        </nav>
-    </header>
-
-    <!-- FIN HEADER -->
-
-    
-    <!-- COMIENZO MAIN -->
-
-    <main>
-
-    <!-- INICIO SLIDER -->
-
-    <div class="carousel-container">
-        <div class="carousel-slide">
-            <section class="slider"><img src="imgs/carr (1).jpg" alt="Imagen 1"></section>
-        </div>
-        <div class="carousel-slide">
-            <section class="slider"><img src="imgs/carr (2).jpg" alt="Imagen 2"></section>
-        </div>
-        <div class="carousel-slide">
-            <section class="slider"><img src="imgs/carr (3).jpg" alt="Imagen 3"></section>
-        </div>
-        <div class="carousel-slide">
-            <section class="slider"><img src="imgs/carr (4).jpg" alt="Imagen 4"></section>
-        </div>
-        <div class="carousel-slide">
-            <section class="slider"><img src="imgs/carr (5).jpg" alt="Imagen 5"></section>
-        </div>
-    </div>
-    
+        <header class="header">
+            <div class="logo-y-empresa">
+                <p class="fundacion-garabato">
+                    <span class="text-wrapper">Fundacion garabato <br /></span> <span class="span">cuna de nativas</span>
+                </p>
+                <img class="el-planeta-tierra" src="logos/logo_fundacion_Garabato.png" />
+            </div>
+            <img class="line" src="logos/Line 1.png" />
+            <nav>
+                <a href="index.html" class="text-wrapper-2">Inicio</a>
+                <a href="" class="text-wrapper-3">Somos</a>
+                <a href="acciones.html" class="text-wrapper-4">Acciones</a>
+                <a href="#contactos" class="text-wrapper-5">Contacto</a>
+            </nav>
+            <a href="" class="overlap-group">Doná</a>
+           
+        </header>
+        <seccion class="fondo"></seccion>
+   
     <!-- FIN SLIDER -->
 
     <!-- INICIO QUIENES SOMOS -->
 
-    <section id="quienes-somos">
-        <h2>¿Quienes somos?</h2>
-        <p>
-            Somos una organización sin fines de lucro que tiene por objetivo el cuidado del ambiente y 
-            la remediación del impacto de la actividad humana sobre la naturaleza. Nuestra actividad principal 
-            es la forestación con plantas nativas, articulando con otras organizaciones para recomponer los 
-            biocorredores y con eso mantener la biodiversidad del ecosistema que habitamos. Además llevamos 
-            adelante y acompañamos proyectos de impacto social, ambiental y económico.
+    <section class="quienes-somos">
+
+        <h2 class="titulo">¿Quienes somos?</h2>
+        <p class="text-quienes-somos">
+            Somos una organización sin fines de lucro, del Valle de Paravachasca, que tiene como misión el cuidado del ambiente y la remediación del impacto de la actividad humana sobre la naturaleza a través de diferentes acciones.
         </p>
+
+        <div class="seccion">
+            <img class="image-quienes-somos" src="imgs/vivid-mountain-lake.gif" alt="">
+
+            <a href="#" class="cta">
+                <span>Conoce mas</span>
+                <svg width="13px" height="10px" viewBox="0 0 13 10">
+                  <path d="M1,5 L11,5"></path>
+                  <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+              </a>
+        </div>
+
+        
     </section>
 
 <!-- FIN QUIENES SOMOS -->
-
-    <!-- INICIO DONÁ AHORA -->
-
-        <section id="dona-ahora">
-            <a>
-                DONÁ AHORA 🌱
-            </a>
-        </section>
-
-        <!-- FIN DONÁ AHORA -->
 
         <!-- INICIO INFO MONTE NATIVO -->
 
         <section id="info-monte-nativo">
             <article>
-                <p>En Córdoba queda solo el 3% de monte nativo</p>
-                <img src="imgs/fuego-secc-info-monte-nativo.png" alt="imagen fuego">
+                <p class="fuego">En Córdoba queda solo el 3% de monte nativo</p>
+                <img src="imgs/fuego-secc-info-monte-nativo.png" alt="">
             </article>
 
             <article>
-                <p>Recuperemos el monte nativo entre todos</p>
-                <img src="imgs/mundo-secc-info-monte-nativo.png" alt="imagen planeta">
+                <p class="monte-nativo">Recuperemos el monte nativo entre todos</p>
+                <img src="imgs/mundo-secc-info-monte-nativo.png" alt="">
             </article>
         </section>
 
         <!-- FIN INFO MONTE NATIVO -->
-
-        <!-- INICIO SUMATE, ASOCIATE Y CALCULA TU HUELLA DE CARBONO -->
-
-        <section id="sumate-asociate-calcula" >
-            <a href="formulario-sumate.html">
-                Sumate como voluntario
-            </a>
-            <a> 
-                Asociate
-            </a>
-            <a href="https://calculator.carbonfootprint.com/calculator.aspx?lang=es" target="_blank">
-                Calculá tu huella de carbono
-            </a>
-        </section>
-
 
     </main>
 
@@ -125,16 +83,40 @@
 
     <footer>
         <!--logo + empresa-->
-        <a href="index.html">
-            <img src="logos/logo_fundacion_Garabato.png" alt="Logo-Garabato">
-            <span>
-                FUNDACIÓN GARABATO
-                Cuna de nativos
-            </span>
-        </a>
+        <div class="logo-y-empresa">
+            <p class="fundacion-garabato" >
+                <span class="text-wrapper">Fundacion garabato <br /></span> <span class="span">cuna de nativas</span>
+            </p>
+            <img class="el-planeta-tierra" src="logos/logo_fundacion_Garabato.png" />
+        </div>
+        <p class="text-footer">
+            Villa Anisacate. <br /> Cordoba, Republica Argentina. <br /> 3547- 00000
+        </p>
 
+        <p class="enlaces">
+            <span>Enlaces</span><br>
+        </br>
+            <span class="txt-enlace">
+                <a href="index.html">Inicio</a><br>
+                <a href="">Somos</a><br>
+                <a href="acciones.html">Acciones</a><br>
+                <a href="#contactos">Contacto</a>
+            </span>
+        </p>
+            <img src="logos/avatar.png" alt="imagen-grupo" class="avatar1">
+            <img src="logos/avatar.png" alt="imagen-grupo" class="avatar2">
+            <img src="logos/avatar.png" alt="imagen-grupo" class="avatar3">
+            <img src="logos/avatar.png" alt="imagen-grupo" class="avatar4">
+            <img src="logos/avatar.png" alt="imagen-grupo" class="avatar5">
+        
+        
+            
+        
+
+        <img src="logos/Line 2.png" alt="linea-izq" class="line-left">
+        <img src="logos/Line 2.png" alt="linea-der" class="line-right">
         <!-- REDES SOCIALES -->
-        <nav>
+        <nav id="contactos">
             <a href="">
                 <img src="logos/whatsapp.png" alt="whatsapp">
             </a>
