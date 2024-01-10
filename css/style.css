@@ -253,6 +253,7 @@ footer .logo-y-empresa{
 footer .logo-y-empresa .text-wrapper, footer .logo-y-empresa .span{
     color: white;
 }
+<<<<<<< HEAD
 footer .text-footer{
     position: absolute;
     width: 221px;
@@ -264,7 +265,22 @@ footer .text-footer{
     line-height: normal;
 
 }
+=======
+>>>>>>> e231c7cb2620988e27cba355107a4a62ff874086
 
+.ubicacion-footer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .img-icon {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 0;
+  }
+  
+   
 footer .enlaces{
     position: absolute;
     width: 100px;
@@ -302,17 +318,17 @@ footer .enlaces .txt-enlace a:hover{
  .avatar4{left: 85%;}
  .avatar5{left: 90%;}
 
-.line-right{left: 5%;}
-.line-left{left: 65%;}
+.line-right{left: 13%;}
+.line-left{left: 70%;}
 
 .line-left, .line-right{
     height: 2px;
     top: 2000px;
     position: absolute;
-    width: 400px;
+    width: 300px;
 }
 
-[alt='facebook'], [alt='whatsapp'], [alt='instagram'], [alt='correo-electronico']{
+ [alt='facebook'], [alt='whatsapp'], [alt='instagram'], [alt='correo-electronico'], [alt='linkedin']{
     width: 44px;
     height: 44px;
     top: 1980px;
@@ -320,10 +336,12 @@ footer .enlaces .txt-enlace a:hover{
     object-fit: cover;
 }
 
+
 [alt='whatsapp']{left: 37.5%;}
 [alt='facebook']{left: 45%;}
 [alt='instagram']{left: 53%;}
 [alt='correo-electronico']{left: 60%;}
+[alt='linkedin']{left: 65%;}
 
 /* INDEX */
 
