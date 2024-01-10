@@ -20,3 +20,16 @@ document.addEventListener("DOMContentLoaded", function () {
         setTimeout(showSlides, 2000); // Cambia la imagen cada 2 segundos (ajusta según sea necesario)
     }
 });
+
+
+window.addEventListener("scroll", function(){
+    let header = this.document.querySelector("header");
+    header.classList.toggle('sticky', this.window.scrollY > 0);
+})
+
+let splide = new Splide( '.splide', {
+    type: 'loop',
+    autoplay:true,
+    interval: '2000'
+} );
+splide.mount();
