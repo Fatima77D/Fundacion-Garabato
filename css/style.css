@@ -166,15 +166,16 @@ img[alt="Logo-Garabato"]{
     left: 80%;
     display: flex;
     padding: 8px 34px;
-    background-color: #ff9738;
+    background-color: #4E8771;
     color: whitesmoke;
     font-family: "Merriweather", Helvetica;
-    border-radius: 5px;
+    border-radius: 30px;
     box-shadow: 0px 4px 4px #7a624540;
     font-size: 20px;
     letter-spacing: 0;
     line-height: normal;
     -webkit-animation: pulse 1.9s infinite;
+    opacity: 0.8;
   }
 
   
@@ -239,7 +240,6 @@ footer{
     height: 450px;
     background-color: #0c1514;
     top: auto;
-    padding: 0px 86px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -253,32 +253,27 @@ footer .logo-y-empresa{
 footer .logo-y-empresa .text-wrapper, footer .logo-y-empresa .span{
     color: white;
 }
-<<<<<<< HEAD
-footer .text-footer{
-    position: absolute;
-    width: 221px;
-    top: 1800px;
-    left: 60px;
-    color: white;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-
-}
-=======
->>>>>>> e231c7cb2620988e27cba355107a4a62ff874086
 
 .ubicacion-footer {
     display: flex;
     align-items: center;
+    color: #ffff;
+    margin-left: 60px;
   }
-  
-  .img-icon {
-    float: left;
-    width: 30px;
-    height: 30px;
-    margin-right: 0;
-  }
+
+.ubicacion-footer p{
+  color: #ffff;
+  width: 300px;
+  margin-top: 8px;
+}
+
+.ubicacion-footer img[alt="ubicacion"]{
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px; 
+  vertical-align: middle;
+}
   
    
 footer .enlaces{
