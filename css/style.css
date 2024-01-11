@@ -9,6 +9,9 @@ EN TODAS LAS PAGINAS
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital@1&family=Dosis:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -25,6 +28,7 @@ body{
     font-size: 16px;
     font-weight: 300;
     background: white;
+    min-height: 500px;
 }
 
 a{
@@ -228,7 +232,7 @@ img[alt="Logo-Garabato"]{
 main{
     width: 100%;
     margin: auto;
-    min-height: auto;
+    min-height: 800px;
     font-family: 'Advent Pro', sans-serif;
 }
 
@@ -244,6 +248,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     color: white;
+    position: relative;
 }
 
 footer .logo-y-empresa{
@@ -253,7 +258,6 @@ footer .logo-y-empresa{
 footer .logo-y-empresa .text-wrapper, footer .logo-y-empresa .span{
     color: white;
 }
-<<<<<<< HEAD
 footer .text-footer{
     position: absolute;
     width: 221px;
@@ -263,10 +267,7 @@ footer .text-footer{
     font-size: 20px;
     letter-spacing: 0;
     line-height: normal;
-
 }
-=======
->>>>>>> e231c7cb2620988e27cba355107a4a62ff874086
 
 .ubicacion-footer {
     display: flex;
@@ -467,8 +468,10 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: auto;
-    height: 650px;
+    top: -50px;    
+    height: 450px;
+    position: relative;
+
 }
 
 #info-monte-nativo{
@@ -478,23 +481,67 @@ body{
     margin-top: 300px;
     
 }
-
-#info-monte-nativo article{
-    width: 350px;
-    height: 612px;
-    background-color: #93C198;
-    border-radius: 10px;
-    text-align: center;
-    padding: 100px 20px;
+.accordion{
+  top: 10px;
+  max-width: 1000px;
+  width: 100%;
+  background: #FFF;
+  margin: 0 15px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow:  0 0 4px rgba(0,0,0,0.2);
+}
+.accordion .accordion-content{
+  margin: 10px 0;
+  border-radius: 4px;
+  background: #fdf8f4;
+  border: 1px solid #ffb777;
+  overflow: hidden;
+}
+.accordion-content:nth-child(2){
+  background-color: #f0fff4;
+  border-color: #54c486;
+}
+.accordion-content.open{
+  padding-bottom: 10px;
+}
+.accordion-content header{
+  display: flex;
+  min-height: 50px;
+  padding: 0 15px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.2s linear;
+}
+.accordion-content.open header{
+  min-height: 35px;
+}
+.accordion-content header .title{
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+  font-family: 'Cairo';
+}
+.accordion-content header i{
+  font-size: 15px;
+  color: #333;
+}
+.accordion-content header i img{
+  height: 20px;
+  width: auto;
+  align-items: center;
 }
 
-#info-monte-nativo p{
-    font-size: 45px;
-    font-weight: 600;
-}
+.accordion-content .description{
+  height: 0;
+  font-size: 15px;
+  color: #333;
+  font-weight: 400;
+  padding: 0 15px;
+  transition: all 0.2s linear;
+  font-family: 'Oxygen';
 
-#info-monte-nativo img{
-    padding-top: 50px;
 }
 
 /*QUIENES SOMOS*/
