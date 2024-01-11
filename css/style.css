@@ -838,11 +838,14 @@ footer .boton-dona {
   width: 100%;
   max-width: 1400px;
   height: 1380px;
+  background-color: #ffff;
   margin: 0px auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  position: relative;
+  top: -200px;
   
 
 }
