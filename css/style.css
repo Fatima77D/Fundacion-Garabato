@@ -81,7 +81,7 @@ img[alt="Logo-Garabato"] {
   width: 150px;
   top: 15px;
   left: 96px;
-  font-family: "Julius Sans One-Regular", Helvetica;
+  font-family: "Cairo", Helvetica;
   font-weight: 400;
   color: #000000;
   font-size: 15px;
@@ -91,7 +91,7 @@ img[alt="Logo-Garabato"] {
 
 
 .text-wrapper {
-  font-family: "Preahvihear", Helvetica;
+  font-family: "Cairo", Helvetica;
   font-weight: 400;
   color: #000000;
   font-size: 18px;
@@ -262,8 +262,8 @@ body {
 
 }
 
-
 /* INDEX - quienes somos */
+
 .quienes-somos {
   width: 100%;
   height: 430px;
@@ -924,131 +924,20 @@ figure .trasera p {
 
 /* INICIO ESTILOS FOOTER */
 
-.contenedor-footer {
-  position: relative;
+
+footer {
   width: 100%;
-  height: 246px;
-  background-color: #000000;
+  height: 250px;
+  background-color: black;
 }
 
-.contenedor-footer .logo-y-empresa {
-  position: absolute;
-  width: 277px;
-  height: 123px;
-  top: 28px;
-  left: 37px;
-  background-color: #000000;
+.contenedor-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.contenedor-footer .fundacion-garabato {
-  position: absolute;
-  top: 18px;
-  left: 110px;
-  color: #ffffff;
-}
-
-.contenedor-footer .text-wrapper-footer {
-  color: #ffffff;
-  font-size: 20px;
-}
-
-.contenedor-footer .span {
-  font-weight: 200;
-}
-
-.contenedor-footer .el-planeta-tierra {
-  position: absolute;
-  width: 91px;
-  height: 90px;
-  top: 11px;
-  left: 5px;
-  object-fit: cover;
-}
-
-.contenedor-footer .anisacate-c-rdoba {
-  position: absolute;
-  top: 177px;
-  left: 70px;
-  font-family: "Cairo", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 16px;
-  text-align: right;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.contenedor-footer .instagram {
-  position: absolute;
-  width: 34px;
-  height: 34px;
-  top: 48px;
-  left: 1200px;
-  object-fit: cover;
-}
-
-.contenedor-footer .facebook {
-  position: absolute;
-  width: 34px;
-  height: 34px;
-  top: 49px;
-  left: 1000px;
-  object-fit: cover;
-}
-
-.contenedor-footer img[alt='ubicacion'] {
-  width: 25px;
-  height: 25px;
-  top: 173px;
-  left: 2px;
-
-}
-
-
-
-.contenedor-footer .linkedin {
-  position: absolute;
-  width: 34px;
-  height: 34px;
-  top: 49px;
-  left: 1100px;
-  object-fit: cover;
-}
-
-.contenedor-footer .whatsapp {
-  position: absolute;
-  width: 34px;
-  height: 34px;
-  top: 138px;
-  left: 1050px;
-  object-fit: cover;
-}
-
-.contenedor-footer .email {
-  position: absolute;
-  width: 34px;
-  height: 34px;
-  top: 138px;
-  left: 1150px;
-  object-fit: cover;
-}
-
-.contenedor-footer .inicio-somos {
-  position: absolute;
-  width: 139px;
-  top: 48px;
-  left: 600px;
-  font-family: "Cairo", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 20px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-
-.contenedor-footer a {
+.contenedor-footer a{
   color: #ffffff;
   text-decoration: none;
   font-family: "Cairo", Helvetica;
@@ -1056,32 +945,76 @@ figure .trasera p {
   font-size: 20px;
 }
 
+.logo-y-empresa-footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 90px;
+  margin-left: 50px;
+}
+/* .ubicacion-footer{
+  position: absolute;
+  bottom: -920px;
+  left: 50px; /* Ajusta según sea necesario */
+
+.logo-garabato-footer {
+  width: 80px;
+  height: 80px;
+
+}
+
+.titulo-fundacion-garabato-footer  {
+  margin: 8px 0 0 16px;
+  font-family: "Cairo", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  
+}
+
+.ubicacion-footer img[alt="ubicacion"]{
+  width: 20px;
+  height: 20px;
+}
+
 .enlaces-footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 200px;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .enlaces-footer a:hover {
   color: #15911f;
 }
 
-/* ESTILOS LINK FOOTER desarrolloFem */
-
-.desarrolloFem {
-  position: absolute;
-  /* Establece la posición absoluta */
-  bottom: 0;
-  /* Coloca el elemento en la parte inferior del contenedor padre */
-  left: 50%;
-  /* Coloca el elemento en el centro horizontalmente */
-  transform: translateX(-50%) scale(0.8);
-  /* Centra horizontalmente y establece el tamaño al 80% */
+.enlaces-footer a:nth-child(5){
+  font-size: 14px;
+  padding: 50px 0 0 0;
 }
+.enlaces-footer a:nth-child(5):hover{
+  color: pink;
+}
+
+.redes-footer{
+  display: flex;
+  flex-wrap: wrap;
+  width: 150px;
+  margin-bottom: 70px;
+  margin-right: 100px;
+}
+
+.redes-footer img{
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+.redes-footer a:nth-child(4){
+  margin-left: 20px;
+}
+
+/* FIN FOOTER */
 
 /* ESTILOS PAGINA TEAM DESARROLLADORAS */
 
