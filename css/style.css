@@ -18,6 +18,10 @@ html {
   scroll-behavior: smooth;
 }
 
+
+
+
+
 /* BODY */
 
 body {
@@ -1115,3 +1119,42 @@ ul li a:hover {
   }
 
 }
+
+/*768px*/
+@media ( max-width: 768px ){
+  header{
+      width: 768px;
+      display: block;
+  }
+      /* selector de atributo */
+      header img[alt="menu"]{
+          position: absolute;
+          top: 24px;
+          right: 12px;
+          width: 32px;
+          cursor: pointer;
+          /* mostrar hamburger */
+          display: inline;
+      }
+
+      /* barra de navegación */
+      header nav{
+          /* estado inicial - cuando carga la página */
+          transform: translateY( calc( -225px - 80px ) );
+          transition: 500ms;
+      }
+      .desplegado{
+          transform: translateY(0px);
+      }
+
+      header nav a{
+          width: 768px;
+          display: block;
+          padding: 8px;
+          text-align: center;
+          background-color: #E29086;
+      }
+      header nav a:hover{
+          background-color: #dd7b6d;
+      }
+    }

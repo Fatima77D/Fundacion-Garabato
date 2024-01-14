@@ -33,3 +33,22 @@ let splide = new Splide( '.splide', {
     interval: '2000'
 } );
 splide.mount();
+
+const boton = document.querySelector('header img[alt="menu"]');
+const nav = document.querySelector('header nav');
+
+let estado = 'up';
+boton.addEventListener(
+    'click',
+    function (){
+        nav.classList.toggle('desplegado');
+        if( estado == 'up' ){
+            boton.src = 'imgs/close-b.png';
+            estado = 'down';
+        }
+        else{
+            boton.src = 'imgs/menu-b.png';
+            estado = 'up';
+        }
+    }
+);
