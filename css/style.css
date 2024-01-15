@@ -6,7 +6,7 @@ EN TODAS LAS PAGINAS
 
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300;400;500&family=Raleway:wght@200;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
 
 * {
   margin: 0px;
@@ -254,7 +254,7 @@ main {
 body {
   margin: 0;
   padding: 0;
-  font-family:'Cairo', Arial, Helvetica, sans-serif;
+  font-family: 'Cairo', Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -581,12 +581,8 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 120px;
-  cursor: pointer;
 }
 
-.figure-sumate{
-  margin: 0 20px;
-}
 .card-seccion-sumate {
   position: relative;
   width: 350px;
@@ -613,6 +609,13 @@ body {
   transition: opacity 0.5s;
 }
 
+#seccion-sumate .span-mercadopago-credicoop{
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+  margin: 8px;
+  vertical-align: middle;
+}
 
 .overlay {
   position: absolute;
@@ -665,29 +668,6 @@ body {
   }
 }
 
-.card-seccion-sumate {
-  position: relative;
-  width: 350px;
-  height: 600px;
-  overflow: hidden;
-  border-radius: 16px;
-  transition: opacity 0.5s;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgb(32 79 36 / 50%);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  z-index: 1;
-}
 
 .info-formas-de-pago {
   color: #083f18 !important;
@@ -707,13 +687,10 @@ body {
   left: 0;
   width: 100%;
   background-color: rgba(76, 175, 80, 0.7);
-  /* Verde transparente */
   color: #fff;
   padding: 10 px;
-  /* Ajusta el padding según sea necesario */
   text-align: center;
   z-index: 2;
-  /* Asegura que esté por encima de la imagen */
   opacity: 1;
   transition: opacity 0.5s;
 }
@@ -726,17 +703,12 @@ body {
   opacity: 0;
 }
 
-footer .boton-dona {
-  background-color: #ff9738;
-  width: 100px;
-  height: 200px;
-}
+
 
 /* FIN ESTILOS SECCION SUMATE */
 
 /* ESTILOS SECCION ACCIONES */
 
-/* acciones actualizado*/
 
 .banner_acciones {
 
@@ -936,7 +908,7 @@ footer {
   align-items: center;
 }
 
-.contenedor-footer a{
+.contenedor-footer a {
   color: #ffffff;
   text-decoration: none;
   font-family: "Cairo", Helvetica;
@@ -951,6 +923,7 @@ footer {
   margin-bottom: 90px;
   margin-left: 50px;
 }
+
 /* .ubicacion-footer{
   position: absolute;
   bottom: -920px;
@@ -962,21 +935,21 @@ footer {
 
 }
 
-.titulo-fundacion-garabato-footer  {
+.titulo-fundacion-garabato-footer {
   margin: 8px 0 0 16px;
   font-family: "Cairo", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 18px;
-  
+
 }
 
-.ubicacion-footer img[alt="ubicacion"]{
+.ubicacion-footer img[alt="ubicacion"] {
   width: 20px;
   height: 20px;
 }
 
-.enlaces-footer{
+.enlaces-footer {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -987,15 +960,16 @@ footer {
   color: #15911f;
 }
 
-.enlaces-footer a:nth-child(5){
+.enlaces-footer a:nth-child(5) {
   font-size: 14px;
   padding: 50px 0 0 0;
 }
-.enlaces-footer a:nth-child(5):hover{
+
+.enlaces-footer a:nth-child(5):hover {
   color: pink;
 }
 
-.redes-footer{
+.redes-footer {
   display: flex;
   flex-wrap: wrap;
   width: 150px;
@@ -1003,13 +977,13 @@ footer {
   margin-right: 100px;
 }
 
-.redes-footer img{
+.redes-footer img {
   width: 30px;
   height: 30px;
   margin: 10px;
 }
 
-.redes-footer a:nth-child(4){
+.redes-footer a:nth-child(4) {
   margin-left: 20px;
 }
 
@@ -1017,24 +991,25 @@ footer {
 
 /* ESTILOS PAGINA TEAM DESARROLLADORAS */
 
-.main-team-desarrolladoras{
+.main-team-desarrolladoras {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   margin-top: 70px;
-  
-} 
 
- .contenedor-team{
+}
+
+.contenedor-team {
   width: 600px;
   height: 550px;
   background-color: rgb(99, 26, 38);
   border-radius: 20px;
-} 
+}
 
 .tituloteam {
-  color: #ffb6c1; ;
+  color: #ffb6c1;
+  ;
   text-align: center;
   margin: 50px 0 25px 0;
 }
@@ -1102,24 +1077,26 @@ ul li a:hover {
 
 /* MEDIA QUERY */
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1280px) {}
 
-}
+@media screen and (max-width: 1024px) {
 
-@media screen and (max-width: 1024px){
+  /* SECCION SUMATE */
   #seccion-sumate {
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 100px;
+    margin-top: 120px;
     cursor: pointer;
-}
+  }
 }
 
 
 @media screen and (max-width: 992px) {
+
+  /* SECCION ACCIONES */
   figure .trasera {
     backface-visibility: visible;
     transform: perspective(600px) rotateY(0deg);
@@ -1132,20 +1109,71 @@ ul li a:hover {
 
 }
 
-@media screen and (max-width: 768px){
-  
+@media screen and (max-width: 768px) {
+
+  /* SECCION SUMATE */
+  #seccion-sumate img {
+    opacity: 0;
+  }
+  .overlay {
+    opacity: 1;
+  }
+  .pie-de-pagina {
+    opacity: 0;
+  }
+  #card3{
+    height: 400px;
+  }
+
+  /* FOOTER */
+
+  .enlaces-footer a:nth-child(5) {
+    font-size: 10px;
+    padding: 50px 0 0 0;
+  }
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 640px) {
 
-.redes-footer{
-  width: 200px;
-  margin-right: 50px;
+  /* SECCION SUMATE */
+  #card3{
+    height: 400px;
+  }
+
+  /* FOOTER */
+
+  .redes-footer {
+    width: 200px;
+    margin-right: 50px;
+  }
+
+  .redes-footer img {
+    width: 25px;
+    height: 25px;
+  }
+
 }
 
-.redes-footer img{
-  width: 25px;
-  height: 25px;
+@media screen and (max-width: 425px) {
+
+
+  /* FOOTER */
+ .logo-y-empresa-footer{
+  margin-bottom: 10px;
+  margin-left: 10px;
+ }
+ .logo-garabato-footer {
+  width: 50px;
+  height: 50px;
 }
-  
+  .redes-footer {
+    width: 300px;
+    margin-right: 10px;
+  }
+
+  .redes-footer img {
+    width: 20px;
+    height: 20px;
+  }
+
 }
