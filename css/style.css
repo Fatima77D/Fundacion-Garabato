@@ -509,7 +509,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 900px;
+  height: 600px;
   top: 200px;
 }
 
@@ -532,7 +532,7 @@ body {
 
 /* CONTACTOS */
 
-#contacto {
+/* #contacto {
   text-align: center;
   margin-top: 93px;
   margin-bottom: 55px;
@@ -571,7 +571,7 @@ body {
 
 #redes #mail {
   padding-left: 275px;
-}
+} */
 
 /* ESTILOS SECCION SUMATE */
 
@@ -609,7 +609,7 @@ body {
   transition: opacity 0.5s;
 }
 
-#seccion-sumate .span-mercadopago-credicoop{
+#seccion-sumate .span-mercadopago-credicoop {
   width: 30px;
   height: 30px;
   opacity: 1;
@@ -969,7 +969,7 @@ footer {
   color: pink;
 }
 
-.redes-footer {
+#contacto {
   display: flex;
   flex-wrap: wrap;
   width: 150px;
@@ -977,13 +977,13 @@ footer {
   margin-right: 100px;
 }
 
-.redes-footer img {
+#contacto img {
   width: 30px;
   height: 30px;
   margin: 10px;
 }
 
-.redes-footer a:nth-child(4) {
+#contacto a:nth-child(4) {
   margin-left: 20px;
 }
 
@@ -1014,7 +1014,6 @@ footer {
   margin: 50px 0 25px 0;
 }
 
-/* Aparecer y agrandar el título cuando el mouse está en la ventana */
 body:hover h1 {
   opacity: 1;
   transform: scale(1);
@@ -1043,43 +1042,57 @@ ul li a {
 
 ul li:nth-child(1) a {
   background-color: #ffbcdd;
-  /* Rosa */
 }
 
 ul li:nth-child(2) a {
   background-color: #bae2f1;
-  /* Celeste */
 }
 
 ul li:nth-child(3) a {
   background-color: #bd7ff7;
-  /* Violeta */
 }
 
 ul li:nth-child(4) a {
   background-color: #7cebdc;
-  /* Verde */
 }
 
 ul li:nth-child(5) a {
   background-color: #f8d189;
-  /* Naranja */
-
 }
 
 ul li a:hover {
   transform: scale(1.1);
-  /* Agranda la caja al pasar el mouse */
   color: #333;
-  /* Texto vuelve al color original */
 }
 
 
 /* MEDIA QUERY */
 
-@media screen and (max-width: 1280px) {}
+@media screen and (max-width: 1280px) {
+
+  .carrusel {
+    margin-top: 20px;
+  }
+
+}
 
 @media screen and (max-width: 1024px) {
+
+  .somos .text-quienes-somos {
+    width: 100%;
+    left: 0;
+    padding: 0 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .somos .pagina-somos img {
+    display: none;
+  }
+
+  .carrusel {
+    height: 500px;
+  }
 
   /* SECCION SUMATE */
   #seccion-sumate {
@@ -1091,12 +1104,17 @@ ul li a:hover {
     margin-top: 120px;
     cursor: pointer;
   }
+
 }
 
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 969px) {
 
   /* SECCION ACCIONES */
+  .contenedor {
+    height: 2500px;
+  }
+
   figure .trasera {
     backface-visibility: visible;
     transform: perspective(600px) rotateY(0deg);
@@ -1111,17 +1129,29 @@ ul li a:hover {
 
 @media screen and (max-width: 768px) {
 
+  /* SECCION SOMOS */
+  .somos .text-quienes-somos {
+    font-size: 14px;
+  }
+
+  .somos .pagina-somos img {
+    display: none;
+  }
+
   /* SECCION SUMATE */
   #seccion-sumate img {
     opacity: 0;
   }
+
   .overlay {
     opacity: 1;
   }
+
   .pie-de-pagina {
     opacity: 0;
   }
-  #card3{
+
+  #card3 {
     height: 400px;
   }
 
@@ -1136,7 +1166,7 @@ ul li a:hover {
 @media screen and (max-width: 640px) {
 
   /* SECCION SUMATE */
-  #card3{
+  #card3 {
     height: 400px;
   }
 
@@ -1158,14 +1188,16 @@ ul li a:hover {
 
 
   /* FOOTER */
- .logo-y-empresa-footer{
-  margin-bottom: 10px;
-  margin-left: 10px;
- }
- .logo-garabato-footer {
-  width: 50px;
-  height: 50px;
-}
+  .logo-y-empresa-footer {
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .logo-garabato-footer {
+    width: 50px;
+    height: 50px;
+  }
+
   .redes-footer {
     width: 300px;
     margin-right: 10px;
