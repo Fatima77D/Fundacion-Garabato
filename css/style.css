@@ -577,11 +577,10 @@ body {
 
 #seccion-sumate {
   width: 100vw;
-  height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 120px;
   cursor: pointer;
 }
 
@@ -1103,6 +1102,23 @@ ul li a:hover {
 
 /* MEDIA QUERY */
 
+@media screen and (max-width: 1280px){
+
+}
+
+@media screen and (max-width: 1024px){
+  #seccion-sumate {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    cursor: pointer;
+}
+}
+
+
 @media screen and (max-width: 992px) {
   figure .trasera {
     backface-visibility: visible;
@@ -1114,4 +1130,22 @@ ul li a:hover {
     transform: perspective(600px) rotateY(0deg);
   }
 
+}
+
+@media screen and (max-width: 768px){
+  
+}
+
+@media screen and (max-width: 640px){
+
+.redes-footer{
+  width: 200px;
+  margin-right: 50px;
+}
+
+.redes-footer img{
+  width: 25px;
+  height: 25px;
+}
+  
 }
