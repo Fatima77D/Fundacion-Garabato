@@ -21,11 +21,14 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
+// HEADER
 
 window.addEventListener("scroll", function(){
     let header = this.document.querySelector("header");
     header.classList.toggle('sticky', this.window.scrollY > 0);
 })
+
+//CARRUSEL
 
 let splide = new Splide( '.splide', {
     type: 'loop',
@@ -33,3 +36,5 @@ let splide = new Splide( '.splide', {
     interval: '2000'
 } );
 splide.mount();
+
+

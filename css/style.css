@@ -348,11 +348,12 @@ body {
   letter-spacing: 0.25em;
   text-transform: uppercase;
   vertical-align: middle;
+  top: -5px;
 }
 
 .cta svg {
   position: relative;
-  top: 0;
+  top: -5px;
   margin-left: 10px;
   fill: none;
   stroke-linecap: round;
@@ -502,6 +503,32 @@ body {
   padding: 0 15px;
   transition: all 0.2s linear;
   font-family: 'Cairo';
+}
+
+.accordion-content .description .boton-sumate{
+  position: relative;
+  width: 150px;
+  height: 40px;
+  top: 40px;
+  left: 40%;
+  display: flex;
+  padding: 2px 35px;
+  background-color: #4E8771;
+  color: whitesmoke;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px #7a624540;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.accordion-content .description .boton-sumate:hover{
+  background-color: #74bba0;
+  color: #000;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px #334139d8;
+  outline-offset: 80px;
+  text-shadow: 1px 1px 6px #fcfcfcd5;
 }
 
 /*Carrusel*/
