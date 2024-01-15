@@ -557,48 +557,6 @@ body {
   cursor: pointer;
 }
 
-/* CONTACTOS */
-
-/* #contacto {
-  text-align: center;
-  margin-top: 93px;
-  margin-bottom: 55px;
-  color: #000;
-
-  font-family: 'Cairo', sans-serif;
-  font-size: 70px;
-  font-weight: 400;
-}
-
-#par {
-  font-size: 30px;
-  font-weight: 400;
-  width: 900px;
-  height: 72px;
-  margin-left: 100px;
-}
-
-#redes {
-  display: grid;
-  grid-template-columns: repeat(2, 275px);
-  align-items: center;
-  justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
-
-}
-
-#redes a {
-  display: grid;
-  grid-template-columns: max-content;
-  justify-content: center;
-  text-align: center;
-
-}
-
-#redes #mail {
-  padding-left: 275px;
-} */
 
 /* ESTILOS SECCION SUMATE */
 
