@@ -505,7 +505,7 @@ body {
   font-family: 'Cairo';
 }
 
-.accordion-content .description .boton-sumate{
+.accordion-content .description .boton-sumate {
   position: relative;
   width: 150px;
   height: 40px;
@@ -522,7 +522,7 @@ body {
   line-height: normal;
 }
 
-.accordion-content .description .boton-sumate:hover{
+.accordion-content .description .boton-sumate:hover {
   background-color: #74bba0;
   color: #000;
   cursor: pointer;
@@ -905,14 +905,18 @@ footer {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 90px;
+  margin-bottom: 30px;
   margin-left: 50px;
+  width: 250px;
 }
 
-/* .ubicacion-footer{
-  position: absolute;
-  bottom: -920px;
-  left: 50px; /* Ajusta según sea necesario */
+.ubicacion-footer {
+  margin-top: 40px;
+}
+
+.ubicacion-footer a {
+  font-size: 16px !important;
+}
 
 .logo-garabato-footer {
   width: 80px;
@@ -1142,6 +1146,9 @@ ul li a:hover {
   }
 
   /* FOOTER */
+  .ubicacion-footer a {
+    font-size: 12px !important;
+  }
 
   .enlaces-footer a:nth-child(5) {
     font-size: 10px;
