@@ -1067,6 +1067,14 @@ ul li a:hover {
 
 @media screen and (max-width: 1024px) {
 
+  .contenedor_tarjeta .titulo1 {
+    padding: 5px;
+  }
+
+  .contenedor {
+    height: 2500px;
+  }
+
   .somos .text-quienes-somos {
     width: 100%;
     left: 0;
@@ -1100,6 +1108,11 @@ ul li a:hover {
 @media screen and (max-width: 969px) {
 
   /* SECCION ACCIONES */
+
+  .contenedor_tarjeta .titulo1 {
+    padding: 5px;
+  }
+
   .contenedor {
     height: 2500px;
   }
