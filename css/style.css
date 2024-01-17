@@ -349,11 +349,12 @@ body {
   text-transform: uppercase;
   vertical-align: middle;
   top: -5px;
+  top: -8px;
 }
 
 .cta svg {
   position: relative;
-  top: -5px;
+  top: -8px;
   margin-left: 10px;
   fill: none;
   stroke-linecap: round;
@@ -940,6 +941,11 @@ footer {
   height: 20px;
 }
 
+.ubicacion-footer a:hover{
+  color: rgb(197, 223, 182);
+  font-size: 30px;
+}
+
 .enlaces-footer {
   display: flex;
   flex-direction: column;
@@ -948,7 +954,8 @@ footer {
 }
 
 .enlaces-footer a:hover {
-  color: #15911f;
+  color: #2fa338;
+  font-size: 22px;
 }
 
 .enlaces-footer a:nth-child(5) {
@@ -976,6 +983,12 @@ footer {
 
 #contacto a:nth-child(4) {
   margin-left: 20px;
+}
+
+#contacto img:hover{
+  width: 32px;
+  height: 32px;
+  margin: auto;
 }
 
 /* FIN FOOTER */
