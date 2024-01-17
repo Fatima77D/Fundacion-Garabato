@@ -1085,13 +1085,6 @@ ul li a:hover {
     display: none;
   }
 
-  .carrusel .container-somos {
-    top: 800px; 
-}
-
-  .carrusel {
-    height: 500px;
-  }
 
   /* SECCION SUMATE */
   #seccion-sumate {
@@ -1142,7 +1135,9 @@ ul li a:hover {
   .somos .pagina-somos img {
     display: none;
   }
-
+.carrusel{
+  height: 400px;
+}
   .carrusel .container-somos {
     top: 700px; 
 }
@@ -1198,7 +1193,15 @@ ul li a:hover {
 
 @media screen and (max-width: 425px) {
 
-
+  .carrusel{
+    height: 200px;
+  }
+  .carrusel .container-somos {
+    top: 900px;
+}
+  .carrusel .container-somos img {
+    height: 200px; 
+  }
   /* FOOTER */
   .logo-y-empresa-footer {
     margin-bottom: 10px;
@@ -1219,5 +1222,12 @@ ul li a:hover {
     width: 20px;
     height: 20px;
   }
+  #contacto {
+    width: 170px;
+    margin-right: 10px;
+  }
+  #contacto a:nth-child(4) {
+    margin-left: 0px;
+}
 
 }
