@@ -1,4 +1,4 @@
-/* 
+/*
 -------------------------
 EN TODAS LAS PAGINAS
 -------------------------
@@ -422,17 +422,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  top: -50px;
-  height: 450px;
-  position: relative;
-
-}
-
-#info-monte-nativo {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: 300px;
+  margin: 300px 0 80px 0;
 }
 
 .accordion {
@@ -600,6 +590,18 @@ body {
   opacity: 1;
   margin: 8px;
   vertical-align: middle;
+  transition: transform 0.5s ease;
+}
+
+#seccion-sumate .span-mercadopago-credicoop:hover {
+  transform: scale(1.5); 
+}
+.hover-p-tarjetas-sumate{
+  transition: color 0.3s ease;
+}
+.hover-p-tarjetas-sumate:hover {
+  transform: scale(1.1); 
+  color: #111!important;
 }
 
 .overlay {
@@ -1071,10 +1073,6 @@ ul li a:hover {
     padding: 5px;
   }
 
-  .contenedor {
-    height: 2500px;
-  }
-
   .somos .text-quienes-somos {
     width: 100%;
     left: 0;
@@ -1086,6 +1084,10 @@ ul li a:hover {
   .somos .pagina-somos img {
     display: none;
   }
+
+  .carrusel .container-somos {
+    top: 800px; 
+}
 
   .carrusel {
     height: 500px;
@@ -1140,6 +1142,10 @@ ul li a:hover {
   .somos .pagina-somos img {
     display: none;
   }
+
+  .carrusel .container-somos {
+    top: 700px; 
+}
 
   /* SECCION SUMATE */
   #seccion-sumate img {
