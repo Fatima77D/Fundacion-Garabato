@@ -1073,10 +1073,6 @@ ul li a:hover {
     padding: 5px;
   }
 
-  .contenedor {
-    height: 2500px;
-  }
-
   .somos .text-quienes-somos {
     width: 100%;
     left: 0;
@@ -1088,6 +1084,10 @@ ul li a:hover {
   .somos .pagina-somos img {
     display: none;
   }
+
+  .carrusel .container-somos {
+    top: 800px; 
+}
 
   .carrusel {
     height: 500px;
@@ -1142,6 +1142,10 @@ ul li a:hover {
   .somos .pagina-somos img {
     display: none;
   }
+
+  .carrusel .container-somos {
+    top: 700px; 
+}
 
   /* SECCION SUMATE */
   #seccion-sumate img {
