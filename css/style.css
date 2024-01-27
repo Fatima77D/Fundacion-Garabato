@@ -595,14 +595,16 @@ body {
 }
 
 #seccion-sumate .span-mercadopago-credicoop:hover {
-  transform: scale(1.5); 
+  transform: scale(1.5);
 }
-.hover-p-tarjetas-sumate{
+
+.hover-p-tarjetas-sumate {
   transition: color 0.3s ease;
 }
+
 .hover-p-tarjetas-sumate:hover {
-  transform: scale(1.1); 
-  color: #111!important;
+  transform: scale(1.1);
+  color: #111 !important;
 }
 
 .overlay {
@@ -941,7 +943,7 @@ footer {
   height: 20px;
 }
 
-.ubicacion-footer a:hover{
+.ubicacion-footer a:hover {
   color: rgb(197, 223, 182);
   font-size: 30px;
 }
@@ -985,7 +987,7 @@ footer {
   margin-left: 20px;
 }
 
-#contacto img:hover{
+#contacto img:hover {
   width: 32px;
   height: 32px;
   margin: auto;
@@ -1148,12 +1150,14 @@ ul li a:hover {
   .somos .pagina-somos img {
     display: none;
   }
-.carrusel{
-  height: 400px;
-}
+
+  .carrusel {
+    height: 400px;
+  }
+
   .carrusel .container-somos {
-    top: 700px; 
-}
+    top: 700px;
+  }
 
   /* SECCION SUMATE */
   #seccion-sumate img {
@@ -1206,16 +1210,20 @@ ul li a:hover {
 
 @media screen and (max-width: 425px) {
 
-  .carrusel{
+  .carrusel {
     height: 200px;
   }
+
   .carrusel .container-somos {
     top: 900px;
-}
-  .carrusel .container-somos img {
-    height: 200px; 
   }
+
+  .carrusel .container-somos img {
+    height: 200px;
+  }
+
   /* FOOTER */
+
   .logo-y-empresa-footer {
     margin-bottom: 10px;
     margin-left: 10px;
@@ -1226,21 +1234,40 @@ ul li a:hover {
     height: 50px;
   }
 
+  .titulo-fundacion-garabato-footer {
+    font-size: 14px;
+  }
+
+  .contenedor-footer a {
+    font-size: 16px;
+  }
+
   .redes-footer {
     width: 300px;
     margin-right: 10px;
   }
 
-  .redes-footer img {
-    width: 20px;
-    height: 20px;
-  }
   #contacto {
     width: 170px;
     margin-right: 10px;
   }
+
   #contacto a:nth-child(4) {
     margin-left: 0px;
+  }
+  
+  #contacto img {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
 }
+}
+
+@media screen and (max-width: 320px) {
+
+  /* CARRUSEL SOMOS */
+  .carrusel .container-somos {
+    top: 945px;
+  }
 
 }
