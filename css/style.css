@@ -957,7 +957,6 @@ footer {
 
 .enlaces-footer a:hover {
   color: #2fa338;
-  font-size: 22px;
 }
 
 .enlaces-footer a:nth-child(5) {
@@ -1156,7 +1155,7 @@ ul li a:hover {
   }
 
   .carrusel .container-somos {
-    top: 700px;
+    top: 740px;
   }
 
   /* SECCION SUMATE */
@@ -1185,6 +1184,7 @@ ul li a:hover {
     font-size: 10px;
     padding: 50px 0 0 0;
   }
+  
 }
 
 @media screen and (max-width: 640px) {
@@ -1215,7 +1215,7 @@ ul li a:hover {
   }
 
   .carrusel .container-somos {
-    top: 900px;
+    height: 140px;
   }
 
   .carrusel .container-somos img {
@@ -1255,7 +1255,7 @@ ul li a:hover {
   #contacto a:nth-child(4) {
     margin-left: 0px;
   }
-  
+
   #contacto img {
     width: 20px;
     height: 20px;
@@ -1267,7 +1267,7 @@ ul li a:hover {
 
   /* CARRUSEL SOMOS */
   .carrusel .container-somos {
-    top: 945px;
+    top: 765px;
   }
 
 }
