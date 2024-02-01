@@ -659,15 +659,15 @@ body {
 }
 
 
-.info-formas-de-pago {
+#info-formas-de-pago {
   color: #083f18 !important;
   font-weight: bold;
   margin-top: 20px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 16px;
 }
 
-.info-formas-de-pago:hover {
+#info-formas-de-pago:hover {
   color: black !important;
 }
 
@@ -696,6 +696,15 @@ body {
 
 
 /* FIN ESTILOS SECCION SUMATE */
+
+/* INICIO PAGINA QR MERCADO PAGO */
+
+img[alt="qr-mercado-pago"]{
+  width: 400px!important;
+  height: 400px!important;
+  opacity: 1!important;
+  
+}
 
 /* ESTILOS SECCION ACCIONES */
 
@@ -882,6 +891,7 @@ figure .trasera p {
   line-height: 22px;
   font-size: 16px;
 }
+
 
 /* INICIO ESTILOS FOOTER */
 
