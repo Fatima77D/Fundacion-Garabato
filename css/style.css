@@ -1091,6 +1091,21 @@ ul li a:hover {
 
 }
 
+
+@media screen and (max-width: 1130px) {
+  
+  .somos .pagina-somos img {
+    display: none;
+  }
+
+  
+  .somos .text-quienes-somos {
+    width: 90%;
+    left: 5%;
+    justify-content: center;
+  }
+
+}
 @media screen and (max-width: 1024px) {
 
    /*INDEX*/
@@ -1121,16 +1136,15 @@ ul li a:hover {
     padding: 5px;
   }
 
-  .somos .text-quienes-somos {
-    width: 100%;
-    left: 0;
-    padding: 0 15px;
-    text-align: center;
-    display: block;
-  }
-
   .somos .pagina-somos img {
     display: none;
+  }
+
+
+  .somos .text-quienes-somos {
+    width: 90%;
+    left: 5%;
+    justify-content: center;
   }
 
 
@@ -1177,6 +1191,24 @@ ul li a:hover {
     top: 300px;
     left: 5%;
   }
+
+  /*SOMOS*/
+
+  .carrusel {
+    height: 600px;
+    width: 300px;
+  }
+  
+.carrusel .container-somos {
+  width: 70%;
+  height: 600px;
+  top: 1000px;
+  left: 50%;
+}
+
+.carrusel .container-somos img {
+  height: 400px;
+}
   
 
   /* SECCION ACCIONES */
@@ -1233,7 +1265,7 @@ ul li a:hover {
 
   /* SECCION SOMOS */
   .somos .text-quienes-somos {
-    font-size: 14px;
+    font-size: 20px;
   }
 
   .somos .pagina-somos img {
@@ -1241,12 +1273,20 @@ ul li a:hover {
   }
 
   .carrusel {
-    height: 400px;
+    height: 500px;
+    width: 100px;
   }
+  
+.carrusel .container-somos {
+  width: 70%;
+  height: 500px;
+  top: 1000px;
+  left: 50%;
+}
 
-  .carrusel .container-somos {
-    top: 740px;
-  }
+.carrusel .container-somos img {
+  height: 300px;
+}
 
   /* SECCION SUMATE */
   #seccion-sumate img {
@@ -1321,21 +1361,64 @@ ul li a:hover {
     position: absolute;
     left: -40%;
   }
+
+  /*SOMOS*/
+  
+  .carrusel {
+    height: 500px;
+    width: 100px;
+  }
+   
+.carrusel .container-somos {
+  width: 80%;
+  height: 90%;
+  top: 1200px;
+  left: 50%;
+}
+
+.carrusel .container-somos img {
+  height: 200px;
+}
+
+.somos .text-quienes-somos {
+  font-size: 18px;
+  top: 80px;
+}
+
+.somos .pagina-somos img {
+  display: none;
+}
+
 }
 
 @media screen and (max-width: 425px) {
 
-  .carrusel {
-    height: 200px;
+   /*SOMOS*/
+  
+   .carrusel {
+    height: 500px;
+    width: 100px;
   }
+   
+.carrusel .container-somos {
+  width: 80%;
+  height: 90%;
+  top: 1100px;
+  left: 50%;
+}
 
-  .carrusel .container-somos {
-    height: 140px;
-  }
+.carrusel .container-somos img {
+  height: 200px;
+}
 
-  .carrusel .container-somos img {
-    height: 200px;
-  }
+.somos .text-quienes-somos {
+  font-size: 16px;
+  top: 80px;
+}
+
+.somos .pagina-somos img {
+  display: none;
+}
 
   /* FOOTER */
 
