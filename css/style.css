@@ -1099,6 +1099,8 @@ ul li a:hover {
   }
 
 
+
+
   /* SECCION SUMATE */
   #seccion-sumate {
     width: 100vw;
@@ -1138,6 +1140,31 @@ ul li a:hover {
 }
 
 @media screen and (max-width: 768px) {
+
+  /* SECCION INDEX */
+
+  .quienes-somos .titulo, .quienes-somos .text-quienes-somos{
+    text-align: center;
+    position: absolute;
+    left: 15%;
+  }
+  .quienes-somos .titulo{
+    font-size: 50px;
+  }
+  .quienes-somos .text-quienes-somos{
+    font-size: 23px;
+  }
+
+  .quienes-somos .seccion img{
+    display: none;
+  }
+
+  .quienes-somos .seccion .cta{
+    display: inline-block;
+    top: 430px;
+    position: absolute;
+    left: -50%;
+  }
 
 
   /* SECCION SOMOS */
@@ -1202,9 +1229,84 @@ ul li a:hover {
     height: 25px;
   }
 
+  /*INDEX*/
+  .quienes-somos .titulo, .quienes-somos .text-quienes-somos{
+    text-align: center;
+    position: absolute;
+    left: 5%;
+  }
+  .quienes-somos .titulo{
+    font-size: 40px;
+    width: 90%;
+  }
+  .quienes-somos .text-quienes-somos{
+    font-size: 20px;
+    width: 90%;
+  }
+
+  .quienes-somos .seccion img{
+    display: none;
+  }
+
+  .quienes-somos .seccion .cta{
+    display: inline-block;
+    top: 430px;
+    position: absolute;
+    left: -40%;
+  }
 }
 
 @media screen and (max-width: 425px) {
+
+  /*INDEX*/
+
+
+  .quienes-somos .titulo, .quienes-somos .text-quienes-somos{
+    text-align: center;
+    left: 5%;
+    position: absolute;
+  }
+  .quienes-somos .titulo{
+    font-size: 30px;
+    width: 90%;
+  }
+  .quienes-somos .text-quienes-somos{
+    font-size: 15px;
+    width: 90%;
+  }
+
+  .quienes-somos .seccion img{
+    display: none;
+  }
+
+  .quienes-somos .seccion .cta{
+    display: inline-block;
+    top: 350px;
+    position: absolute;
+    left: -40%;
+  }
+
+ 
+#info-monte-nativo {
+  margin: 250px 0 60px 0;
+}
+
+.accordion {
+  top: 10px;
+  max-width: 1000px;
+  width: 100%;
+  background: #FFF;
+  margin: 0 20px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.accordion .accordion-content {
+  margin: 10px 0;
+  border-radius: 4px;
+  overflow: hidden;
+}
 
   .carrusel{
     height: 200px;
