@@ -595,14 +595,16 @@ body {
 }
 
 #seccion-sumate .span-mercadopago-credicoop:hover {
-  transform: scale(1.5); 
+  transform: scale(1.5);
 }
-.hover-p-tarjetas-sumate{
+
+.hover-p-tarjetas-sumate {
   transition: color 0.3s ease;
 }
+
 .hover-p-tarjetas-sumate:hover {
-  transform: scale(1.1); 
-  color: #111!important;
+  transform: scale(1.1);
+  color: #111 !important;
 }
 
 .overlay {
@@ -657,15 +659,15 @@ body {
 }
 
 
-.info-formas-de-pago {
+#info-formas-de-pago {
   color: #083f18 !important;
   font-weight: bold;
   margin-top: 20px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 16px;
 }
 
-.info-formas-de-pago:hover {
+#info-formas-de-pago:hover {
   color: black !important;
 }
 
@@ -694,6 +696,15 @@ body {
 
 
 /* FIN ESTILOS SECCION SUMATE */
+
+/* INICIO PAGINA QR MERCADO PAGO */
+
+img[alt="qr-mercado-pago"]{
+  width: 400px!important;
+  height: 400px!important;
+  opacity: 1!important;
+  
+}
 
 /* ESTILOS SECCION ACCIONES */
 
@@ -881,6 +892,7 @@ figure .trasera p {
   font-size: 16px;
 }
 
+
 /* INICIO ESTILOS FOOTER */
 
 
@@ -941,7 +953,7 @@ footer {
   height: 20px;
 }
 
-.ubicacion-footer a:hover{
+.ubicacion-footer a:hover {
   color: rgb(197, 223, 182);
   font-size: 30px;
 }
@@ -955,7 +967,6 @@ footer {
 
 .enlaces-footer a:hover {
   color: #2fa338;
-  font-size: 22px;
 }
 
 .enlaces-footer a:nth-child(5) {
@@ -985,7 +996,7 @@ footer {
   margin-left: 20px;
 }
 
-#contacto img:hover{
+#contacto img:hover {
   width: 32px;
   height: 32px;
   margin: auto;
@@ -1082,6 +1093,30 @@ ul li a:hover {
 
 @media screen and (max-width: 1024px) {
 
+   /*INDEX*/
+   .quienes-somos .titulo, .quienes-somos .text-quienes-somos{
+    text-align: center;
+    position: absolute;
+    left: 3%;
+  }
+  .quienes-somos .titulo{
+    font-size: 50px;
+    width: 50%;
+  }
+
+  .seccion .image-quienes-somos {
+    top: 75px;
+  }
+
+  .quienes-somos .text-quienes-somos{
+    font-size: 25px;
+    width: 50%;
+  }
+
+  .quienes-somos .seccion .cta{
+    top: 300px;
+    left: 23%;
+  }
   .contenedor_tarjeta .titulo1 {
     padding: 5px;
   }
@@ -1117,6 +1152,33 @@ ul li a:hover {
 
 @media screen and (max-width: 969px) {
 
+   /*INDEX*/
+   .quienes-somos .titulo, .quienes-somos .text-quienes-somos{
+    text-align: center;
+    position: absolute;
+    left: 3%;
+  }
+  .quienes-somos .titulo{
+    font-size: 40px;
+    width: 40%;
+  }
+
+  .seccion .image-quienes-somos {
+    top: 75px;
+    left: -15%;
+  }
+
+  .quienes-somos .text-quienes-somos{
+    font-size: 20px;
+    width: 40%;
+  }
+
+  .quienes-somos .seccion .cta{
+    top: 300px;
+    left: 5%;
+  }
+  
+
   /* SECCION ACCIONES */
 
   .contenedor_tarjeta .titulo1 {
@@ -1146,10 +1208,12 @@ ul li a:hover {
   .quienes-somos .titulo, .quienes-somos .text-quienes-somos{
     text-align: center;
     position: absolute;
-    left: 15%;
+    left: 5%;
+    width: 90%;
   }
   .quienes-somos .titulo{
     font-size: 50px;
+    
   }
   .quienes-somos .text-quienes-somos{
     font-size: 23px;
@@ -1175,12 +1239,14 @@ ul li a:hover {
   .somos .pagina-somos img {
     display: none;
   }
-.carrusel{
-  height: 400px;
-}
+
+  .carrusel {
+    height: 400px;
+  }
+
   .carrusel .container-somos {
-    top: 700px; 
-}
+    top: 740px;
+  }
 
   /* SECCION SUMATE */
   #seccion-sumate img {
@@ -1208,6 +1274,7 @@ ul li a:hover {
     font-size: 10px;
     padding: 50px 0 0 0;
   }
+  
 }
 
 @media screen and (max-width: 640px) {
@@ -1258,66 +1325,20 @@ ul li a:hover {
 
 @media screen and (max-width: 425px) {
 
-  /*INDEX*/
-
-
-  .quienes-somos .titulo, .quienes-somos .text-quienes-somos{
-    text-align: center;
-    left: 5%;
-    position: absolute;
-  }
-  .quienes-somos .titulo{
-    font-size: 30px;
-    width: 90%;
-  }
-  .quienes-somos .text-quienes-somos{
-    font-size: 15px;
-    width: 90%;
-  }
-
-  .quienes-somos .seccion img{
-    display: none;
-  }
-
-  .quienes-somos .seccion .cta{
-    display: inline-block;
-    top: 350px;
-    position: absolute;
-    left: -40%;
-  }
-
- 
-#info-monte-nativo {
-  margin: 250px 0 60px 0;
-}
-
-.accordion {
-  top: 10px;
-  max-width: 1000px;
-  width: 100%;
-  background: #FFF;
-  margin: 0 20px;
-  padding: 10px;
-  border-radius: 8px;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
-}
-
-.accordion .accordion-content {
-  margin: 10px 0;
-  border-radius: 4px;
-  overflow: hidden;
-}
-
-  .carrusel{
+  .carrusel {
     height: 200px;
   }
+
   .carrusel .container-somos {
-    top: 900px;
-}
-  .carrusel .container-somos img {
-    height: 200px; 
+    height: 140px;
   }
+
+  .carrusel .container-somos img {
+    height: 200px;
+  }
+
   /* FOOTER */
+
   .logo-y-empresa-footer {
     margin-bottom: 10px;
     margin-left: 10px;
@@ -1328,21 +1349,40 @@ ul li a:hover {
     height: 50px;
   }
 
+  .titulo-fundacion-garabato-footer {
+    font-size: 14px;
+  }
+
+  .contenedor-footer a {
+    font-size: 16px;
+  }
+
   .redes-footer {
     width: 300px;
     margin-right: 10px;
   }
 
-  .redes-footer img {
-    width: 20px;
-    height: 20px;
-  }
   #contacto {
     width: 170px;
     margin-right: 10px;
   }
+
   #contacto a:nth-child(4) {
     margin-left: 0px;
+  }
+
+  #contacto img {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
 }
+}
+
+@media screen and (max-width: 320px) {
+
+  /* CARRUSEL SOMOS */
+  .carrusel .container-somos {
+    top: 765px;
+  }
 
 }
