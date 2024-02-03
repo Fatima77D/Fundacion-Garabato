@@ -1656,6 +1656,11 @@ header div button{
     display: none;
   }
 
+  /* SUMATE */
+  #seccion-sumate{
+    margin-top: 10px;
+  }
+
   /* FOOTER */
 
   .logo-y-empresa-footer {
