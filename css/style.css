@@ -50,6 +50,9 @@ img[alt="Logo-Garabato"] {
   background-size: center;
 }
 @media screen and ( min-width: 768px ){
+.nav-cosas{
+  display: inline;
+}
 .header {
   width: 100%;
   height: 130px;
@@ -1569,6 +1572,9 @@ ul li a:hover {
     height: 20px;
     margin: 10px;
   }
+}
+header img[alt="menu"]{
+  display: none;
 }
 
 @media screen and (max-width: 320px) {
