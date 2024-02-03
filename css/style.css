@@ -844,8 +844,9 @@ img[alt="qr-mercado-pago"]{
   color: #000;
   margin: 15px;
   font-family: "Cairo", Helvetica;
-  border: 10px solid #7e715da4;
+  border: 10px solid #718642a4;
   border-radius: 5px;
+  animation: bounce 1s infinite;
 }
 
 .contenedor_tarjeta:hover figure {
