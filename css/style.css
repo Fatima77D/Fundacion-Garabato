@@ -1424,6 +1424,11 @@ ul li a:hover {
     height: 200px !important;
 }
 
+#figure-credicoop,
+#figure-mercado-pago {
+  height: 400px;
+}
+
   /* FOOTER */
   .ubicacion-footer a {
     font-size: 12px !important;
