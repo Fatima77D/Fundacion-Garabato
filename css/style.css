@@ -785,10 +785,6 @@ img[alt="qr-credicoop"] {
 
 }
 
-.contenedor_tarjeta a {
-  display: inline-block;
-}
-
 .contenedor_tarjeta .titulo1 {
   padding: 20px;
   text-align: center;
@@ -798,6 +794,10 @@ img[alt="qr-credicoop"] {
   border: 10px solid #718642a4;
   border-radius: 5px;
   animation: bounce 1s infinite;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contenedor_tarjeta:hover figure {
@@ -1260,18 +1260,6 @@ ul li a:hover {
   .contenedor {
     height: 2500px;
   }
-
-  figure .trasera {
-    backface-visibility: visible;
-    transform: perspective(600px) rotateY(0deg);
-
-  }
-
-  .contenedor_tarjeta:hover figure {
-    transform: perspective(600px) rotateY(0deg);
-  }
-
-}
 
 @media screen and (max-width: 768px) {
 
