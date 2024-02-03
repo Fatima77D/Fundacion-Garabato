@@ -1277,17 +1277,18 @@ ul li a:hover {
   .contenedor {
     height: 2500px;
   }
-   
+
   figure .trasera {
-    
+
     backface-visibility: visible;
     transform: perspective(600px) rotateY(0deg);
-    }
+  }
 
   .contenedor_tarjeta:hover figure {
     transform: perspective(600px) rotateY(0deg);
-    }
+  }
 
+}
 
 @media screen and (max-width: 768px) {
 
@@ -1554,9 +1555,10 @@ ul li a:hover {
 }
 
 @media screen and (max-width: 596px) {
-  .contenedor-footer a{
+  .contenedor-footer a {
     font-size: 16px;
   }
+
   #contacto {
     width: 153px
   }
@@ -1565,13 +1567,16 @@ ul li a:hover {
     width: 20px;
     height: 20px;
   }
-  .logo-y-empresa-footer{
+
+  .logo-y-empresa-footer {
     margin-left: 0;
   }
+
   .titulo-fundacion-garabato-footer {
     font-size: 12px;
   }
-  .logo-garabato-footer{
+
+  .logo-garabato-footer {
     width: 50px;
     height: 50px;
   }
