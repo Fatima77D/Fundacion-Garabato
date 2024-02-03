@@ -1277,7 +1277,17 @@ ul li a:hover {
   .contenedor {
     height: 2500px;
   }
-}
+   
+  figure .trasera {
+    
+    backface-visibility: visible;
+    transform: perspective(600px) rotateY(0deg);
+    }
+
+  .contenedor_tarjeta:hover figure {
+    transform: perspective(600px) rotateY(0deg);
+    }
+
 
 @media screen and (max-width: 768px) {
 
