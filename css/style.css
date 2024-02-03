@@ -1300,7 +1300,8 @@ ul li a:hover {
     left: -45%;
   }
 
-  #figure-credicoop {
+  #figure-credicoop,
+  #figure-mercado-pago {
     height: 400px;
   }
 
@@ -1405,13 +1406,19 @@ ul li a:hover {
   }
 
   /* SECCION DONAR OTRO MONTO */
+  
   img[alt="qr-credicoop"] {
     display: none;
   }
 
-  /* .card-seccion-sumate:nth-child(2) {
-    height: 400px;
-  } */
+  #qrMercadoPago1 {
+    display: block; 
+}
+#qrMercadoPago2 {
+    display: none; 
+    width: 200px !important;
+    height: 200px !important;
+}
 
   /* FOOTER */
   .ubicacion-footer a {
