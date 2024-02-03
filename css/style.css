@@ -1244,8 +1244,6 @@ ul li a:hover {
   }
 
 }
-
-
 @media screen and (max-width: 969px) {
 
    /*INDEX*/
@@ -1327,10 +1325,12 @@ ul li a:hover {
   }
   .quienes-somos .titulo{
     font-size: 50px;
+    top: -60%;
     
   }
   .quienes-somos .text-quienes-somos{
     font-size: 23px;
+    top: 20%;
   }
 
   .quienes-somos .seccion img{
@@ -1339,9 +1339,9 @@ ul li a:hover {
 
   .quienes-somos .seccion .cta{
     display: inline-block;
-    top: 430px;
+    top: 300px;
     position: absolute;
-    left: -50%;
+    left: -45%;
   }
 
 
@@ -1370,10 +1370,7 @@ ul li a:hover {
   height: 300px;
 }
 
-  /* SECCION SUMATE */
-  #seccion-sumate img {
-    
-  }
+
 
   .overlay {
     opacity: 1;
@@ -1423,14 +1420,17 @@ ul li a:hover {
     text-align: center;
     position: absolute;
     left: 5%;
+    
   }
   .quienes-somos .titulo{
     font-size: 40px;
     width: 90%;
+    top: -60%;
   }
   .quienes-somos .text-quienes-somos{
     font-size: 20px;
     width: 90%;
+    top: 25%;
   }
 
   .quienes-somos .seccion img{
@@ -1439,7 +1439,7 @@ ul li a:hover {
 
   .quienes-somos .seccion .cta{
     display: inline-block;
-    top: 430px;
+    top: 300px;
     position: absolute;
     left: -40%;
   }

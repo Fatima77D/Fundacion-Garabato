@@ -36,5 +36,3 @@ let splide = new Splide( '.splide', {
     interval: '2000'
 } );
 splide.mount();
-
-
