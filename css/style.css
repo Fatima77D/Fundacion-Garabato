@@ -675,7 +675,6 @@ body {
 #info-formas-de-pago {
   color: #083f18 !important;
   font-weight: bold;
-  margin-top: 20px;
   font-size: 16px;
 }
 
@@ -1408,6 +1407,10 @@ ul li a:hover {
   .card-seccion-sumate:active img {
     opacity: 0;
   }
+  
+  p#info-formas-de-pago {
+    margin-bottom: 40px;
+}
 
   /* SECCION DONAR OTRO MONTO */
   
