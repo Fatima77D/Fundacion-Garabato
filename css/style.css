@@ -1276,7 +1276,7 @@ ul li a:hover {
     transform: perspective(600px) rotateY(0deg);
     }
 
-
+  }
 @media screen and (max-width: 768px) {
 
   /* SECCION INDEX */
@@ -1645,9 +1645,6 @@ ul li a:hover {
     margin: 10px;
   }
 }
-header img[alt="menu"]{
-  display: none;
-}
 
 @media screen and (max-width: 320px) {
 
@@ -1711,12 +1708,15 @@ header img[alt="menu"]{
 }
 
 }
+header div button{
+  display: none;
+}
 
 /*768px*/
 
 @media screen and ( max-width: 768px ){
   
-  header img[alt="menu"]{
+  header div button{
     display: inline;
     margin-left: 350px;
     margin-top: 10px;
