@@ -1758,6 +1758,11 @@ header div button{
     top: 2px;
   }
 
+  /* FOOTER */
+  .logo-y-empresa-footer{
+    margin-bottom: 0;
+  }
+
 }
 
 /*768px*/
