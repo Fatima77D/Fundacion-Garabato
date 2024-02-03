@@ -1282,12 +1282,6 @@ ul li a:hover {
 
   .quienes-somos .titulo {
     font-size: 50px;
-<<<<<<< HEAD
-    top: -60%;
-    
-=======
-
->>>>>>> f56cf5ee4e8c1c0f8f52098f781246498739a6bf
   }
 
   .quienes-somos .text-quienes-somos {
@@ -1325,20 +1319,12 @@ ul li a:hover {
     width: 100px;
   }
 
-<<<<<<< HEAD
-.carrusel .container-somos img {
-  height: 300px;
-}
-
-
-=======
   .carrusel .container-somos {
     width: 70%;
     height: 500px;
     top: 1000px;
     left: 50%;
   }
->>>>>>> f56cf5ee4e8c1c0f8f52098f781246498739a6bf
 
   .carrusel .container-somos img {
     height: 300px;
