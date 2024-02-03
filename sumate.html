@@ -20,17 +20,25 @@
             </p>
             <img class="el-planeta-tierra" src="logos/logo_fundacion_Garabato.png" />
         </div>
-        <img class="line" src="logos/Line 1.png" />
+        <div>
+            <button onclick="desplegarMenu()" id="b-menu" type="button"><img id="menu" src="imgs/menu-b.png" alt="menu"></button>
+            </div>
+        </div>
         <nav>
+            
+        <nav class="nav-cosas" id="nav-cosas">
+            
             <a href="index.html" class="text-wrapper-2">Inicio</a>
             <a href="somos.html" class="text-wrapper-3">Somos</a>
             <a href="acciones.html" class="text-wrapper-4">Acciones</a>
-            <a href="#contacto" class="text-wrapper-5">Contacto</a>
+            <a href="#contactos" class="text-wrapper-5">Contacto</a>
+            
         </nav>
         <div class="container">
             <a href="sumate.html" class="overlap-group">🌱SUMATE💚</a>
+            
         </div>
-
+        </nav>
 
     </header>
 
@@ -43,7 +51,7 @@
 
         <!-- CARD DONÁ AHORA -->
 
-        <div class="figure-sumate">
+        <div>
 
             <div class="card-seccion-sumate" id="card1">
 
@@ -122,11 +130,11 @@
 
                         </p>
 
-                        <p>
-                            <a href="donar_otro_monto.html" style="font-weight: bold; color: #083f18; text-transform: uppercase; letter-spacing: 0 px; font-size: 14px;" href="">
+                        <span>
+                            <a href="donar_otro_monto.html" target="_blank" style="font-weight: bold; color: #083f18; text-transform: uppercase; letter-spacing: 0 px; font-size: 14px;">
                                 QUIERO DONAR OTRO MONTO
                             </a>
-                        </p>
+                        </span>
                     </div>
 
                     <!-- Información dentro de la card -->
@@ -155,7 +163,7 @@
 
         <!-- CARD ASOCIATE -->
 
-        <div class="figure-sumate">
+        <div>
 
             <div class="card-seccion-sumate" id="card2">
 
@@ -280,7 +288,7 @@
 
                         </p>
 
-                        <p style="font-size: 12px; color: #276150;">
+                        <p style="font-size: 14px; color: black;">
 
                             Los montos de las donaciones se actualizarán cada cuatro meses de acuerdo al IPC
                             (índice de precios al consumidor).
@@ -309,7 +317,7 @@
 
         <!-- CARD QUIERO SER VOLUNTARIO -->
 
-        <div class="figure-sumate">
+        <div>
 
             <div class="card-seccion-sumate" id="card3">
 
@@ -436,6 +444,7 @@
 
     <!-- FIN FOOTER -->
     <script src="js/script.js"></script>
+    <script src="js/hamburger.js"></script>
 </body>
 
 </html>

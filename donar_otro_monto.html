@@ -41,21 +41,22 @@
 
     <section id="seccion-sumate">
 
-        <!-- CARD QUIERO SER VOLUNTARIO -->
+        <!-- CARD QR MERCADO PAGO -->
 
-        <div class="figure-sumate">
+        <div class="figure-donar-otro-monto">
 
-            <div class="card-seccion-sumate" >
+            <div class="card-seccion-sumate">
 
                 <img src="imgs/quiero-ser-voluntario.jpg">
 
                 <div class="overlay">
                     <p style="font-weight: bold; color: #276150; padding: 20px; margin: 0; ">
-                        Escaneando el código QR de mercado pago (desde la app de mercado pago o de tu banco) podes donar el monto que vos desees 🙌
+                        Escaneando el código QR de mercado pago (desde la app de mercado pago o de tu banco) podes donar
+                        el monto que vos desees 🙌
                     </p>
 
                     <img class="imgs-card-unico-monto" src="imgs/qr-mercado-pago.jpg" alt="qr-mercado-pago">
-                    
+
                 </div>
 
                 <!-- Pie de página -->
@@ -64,7 +65,7 @@
 
                     <p
                         style="font-weight: bold; color: #fff; text-transform: uppercase; letter-spacing: 2 px; padding: 18px;">
-                        QUIERO DONAR OTRO MONTO 
+                        DONAR CON MERCADO PAGO
                     </p>
 
                 </div>
@@ -73,17 +74,24 @@
 
             </div>
 
-            <div class="card-seccion-sumate">
+            <!-- CARD QR CREDICOOP -->
 
-                <img src="imgs/Vivirsmo nuevo.jpg" >
+            <div class="card-seccion-sumate" id="figure-credicoop">
+
+                <img src="imgs/Vivirsmo nuevo.jpg">
 
                 <div class="overlay">
-                    <p style="font-weight: bold; color: #276150; padding: 20px; margin: 0; ">
-                        Escaneando el código QR de credicoop podes donar el monto que vos desees 🙌
+                    <p style="font-weight: bold; color: #276150; padding: 20px; margin: 0;" id="pFigureCredicoop">
+                        Haciendo <u>click en el botón</u> o <u>escaneando el código QR</u> de credicoop podes donar el monto que vos desees 🙌
                     </p>
 
-                    <img class="imgs-card-unico-monto" src="imgs/QR mi pago - donación única vez.jpg" alt="qr-credicoop">
-                    
+                    <a target="_blank" id="boton-donar-otro-monto" href="https://fundaciongarabato.mipago.coop/companies/2/request-payment ">
+                        DONAR OTRO MONTO
+                    </a>
+
+                    <img class="imgs-card-unico-monto" src="imgs/QR mi pago - donación única vez.jpg"
+                        alt="qr-credicoop">
+
                 </div>
 
                 <!-- Pie de página -->
@@ -92,7 +100,7 @@
 
                     <p
                         style="font-weight: bold; color: #fff; text-transform: uppercase; letter-spacing: 2 px; padding: 18px;">
-                        QUIERO DONAR OTRO MONTO 
+                        DONAR CON CREDICOOP
                     </p>
 
                 </div>
@@ -181,6 +189,7 @@
 
     <!-- FIN FOOTER -->
     <script src="js/script.js"></script>
+    <script src="js/donar_otro_monto.js"></script>
 </body>
 
 </html>
