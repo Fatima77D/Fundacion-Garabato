@@ -1132,6 +1132,9 @@ ul li a:hover {
   color: #333;
 }
 
+header div button{
+  display: none;
+}
 
 /* MEDIA QUERY */
 
@@ -1692,9 +1695,6 @@ ul li a:hover {
     margin: 10px;
   }
 }
-header img[alt="menu"]{
-  display: none;
-}
 
 @media screen and (max-width: 320px) {
 
@@ -1759,15 +1759,12 @@ header img[alt="menu"]{
   }
 
 }
-header div button{
-  display: none;
-}
 
 /*768px*/
 
 @media screen and ( max-width: 768px ){
   
-  header img[alt="menu"]{
+  header div button{
     display: inline;
     margin-left: 350px;
     margin-top: 10px;
@@ -1783,7 +1780,7 @@ header div button{
     header nav .nav-cosas a{
        height: 45px;
        font-size: large;
-       
+       color: #000;
     }
   header div button{
     border: white;
