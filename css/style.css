@@ -569,7 +569,7 @@ body {
   margin: 20px;
 }
 
-#card3{
+#card3 {
   height: 500px;
 }
 
@@ -725,9 +725,9 @@ img[alt="qr-credicoop"] {
   background-color: #fff;
   width: 214px;
   height: 40px;
-  font-weight: bold; 
-  color: #276150; 
-  padding: 20px; 
+  font-weight: bold;
+  color: #276150;
+  padding: 20px;
   margin: 0;
   margin-bottom: 30px;
   border-radius: 10px;
@@ -1305,6 +1305,10 @@ ul li a:hover {
     left: -50%;
   }
 
+  #figure-credicoop{
+    height: 400px;
+  }
+
 
   /* SECCION SOMOS */
   .somos .text-quienes-somos {
@@ -1410,10 +1414,10 @@ ul li a:hover {
     display: none;
   }
 
-.card-seccion-sumate:nth-child(2){
-  height: 400px;
-}
-  
+  /* .card-seccion-sumate:nth-child(2) {
+    height: 400px;
+  } */
+
   /* FOOTER */
   .ubicacion-footer a {
     font-size: 12px !important;
