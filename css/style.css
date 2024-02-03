@@ -1606,6 +1606,7 @@ header img[alt="menu"]{
     header nav .nav-cosas a{
        height: 45px;
        font-size: large;
+       color: #000;
        
     }
   header div button{
@@ -1629,8 +1630,9 @@ header img[alt="menu"]{
     -webkit-animation: pulse 1.9s infinite;
     opacity: 0.8;
     margin-top: 75px;
-    margin-left: 130px;
-    margin-bottom: 30px;
-    justify-content: center;
+   
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
   }
 }
