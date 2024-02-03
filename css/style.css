@@ -1035,7 +1035,7 @@ footer {
   flex-wrap: wrap;
   width: 150px;
   margin-bottom: 70px;
-  margin-right: 10px;
+  margin-right: 100px;
 }
 
 #contacto img {
@@ -1048,11 +1048,11 @@ footer {
   margin-left: 20px;
 }
 
-#contacto img:hover {
+/* #contacto img:hover {
   width: 32px;
   height: 32px;
   margin: auto;
-}
+} */
 
 /* FIN FOOTER */
 
@@ -1460,6 +1460,9 @@ header div button{
   }
 
   /* FOOTER */
+  #contacto {
+    margin-right: 100px;
+  }
   .ubicacion-footer a {
     font-size: 12px !important;
   }
