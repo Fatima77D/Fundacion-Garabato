@@ -4,6 +4,7 @@ EN TODAS LAS PAGINAS
 -------------------------
 */
 
+
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300;400;500&family=Raleway:wght@200;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap'); 
@@ -21,9 +22,7 @@ html {
 
 
 
-
 /* BODY */
-
 body {
   color: rgb(48, 48, 48);
   font-family: 'Cairo', sans-serif;
@@ -53,7 +52,7 @@ img[alt="Logo-Garabato"] {
   background-position: center center;
   background-size: center;
 }
-
+@media screen and ( min-width: 768px ){
 .header {
   width: 100%;
   height: 130px;
@@ -67,56 +66,12 @@ img[alt="Logo-Garabato"] {
   z-index: 10;
   transition: 0.7s;
 }
-
-.logo-y-empresa {
-  position: absolute;
-  left: 34px;
-}
-
 .header .logo-y-empresa {
   width: 450px;
   height: 90px;
   top: 19px;
   overflow: hidden;
 }
-
-.fundacion-garabato {
-  position: absolute;
-  width: 150px;
-  top: 15px;
-  left: 96px;
-  font-family: "Cairo", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: 1.5;
-}
-
-
-.text-wrapper {
-  font-family: "Cairo", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 18px;
-  letter-spacing: 0;
-  line-height: 0.1;
-}
-
-.span {
-  font-family: "Cairo";
-  font-weight: 200;
-}
-
-.el-planeta-tierra {
-  position: absolute;
-  width: 64px;
-  height: 64px;
-  top: 13px;
-  left: 17px;
-  object-fit: cover;
-}
-
 .header .line {
   position: absolute;
   width: 3px;
@@ -124,7 +79,6 @@ img[alt="Logo-Garabato"] {
   top: 35px;
   left: 265px;
 }
-
 .text-wrapper-2,
 .text-wrapper-3,
 .text-wrapper-4,
@@ -154,7 +108,19 @@ img[alt="Logo-Garabato"] {
 .header .text-wrapper-5 {
   left: 594px;
 }
+.text-wrapper {
+  font-family: "Cairo", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 0.1;
+}
 
+.span {
+  font-family: "Cairo";
+  font-weight: 200;
+}
 nav a::after {
   content: "";
   position: absolute;
@@ -193,6 +159,62 @@ nav a:hover::after {
   -webkit-animation: pulse 1.9s infinite;
   opacity: 0.8;
 }
+.header .overlap-group:hover {
+  background-color: rgb(253, 151, 34);
+  color: #000;
+  box-shadow: inset 0 0 20px rgba(248, 168, 77, 0.829), 0 0 20px rgba(207, 122, 43, 0.788);
+  outline-offset: 80px;
+  text-shadow: 1px 1px 6px #fcfcfcd5;
+}
+
+.header .text-wrapper-6 {
+  position: absolute;
+  width: 70px;
+  top: 7px;
+  left: 48px;
+}
+
+header.sticky {
+  background-color: whitesmoke;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.199);
+}
+}
+
+.logo-y-empresa {
+  position: absolute;
+  left: 34px;
+}
+
+
+.fundacion-garabato {
+  position: absolute;
+  width: 150px;
+  top: 15px;
+  left: 96px;
+  font-family: "Cairo", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+
+
+
+
+.el-planeta-tierra {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 13px;
+  left: 17px;
+  object-fit: cover;
+}
+
+
+
+
+
 
 
 .pulse-button:hover {
@@ -224,25 +246,7 @@ nav a:hover::after {
   }
 }
 
-.header .overlap-group:hover {
-  background-color: rgb(253, 151, 34);
-  color: #000;
-  box-shadow: inset 0 0 20px rgba(248, 168, 77, 0.829), 0 0 20px rgba(207, 122, 43, 0.788);
-  outline-offset: 80px;
-  text-shadow: 1px 1px 6px #fcfcfcd5;
-}
 
-.header .text-wrapper-6 {
-  position: absolute;
-  width: 70px;
-  top: 7px;
-  left: 48px;
-}
-
-header.sticky {
-  background-color: whitesmoke;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.199);
-}
 
 main {
   width: 100%;
@@ -1119,42 +1123,57 @@ ul li a:hover {
   }
 
 }
+header img[alt="menu"]{
+  display: none;
+}
 
 /*768px*/
-@media ( max-width: 768px ){
-  header{
-      width: 768px;
-      display: block;
+
+@media screen and ( max-width: 768px ){
+  
+  header img[alt="menu"]{
+    display: inline;
+    margin-left: 350px;
+    margin-top: 10px;
   }
-      /* selector de atributo */
-      header img[alt="menu"]{
-          position: absolute;
-          top: 24px;
-          right: 12px;
-          width: 32px;
-          cursor: pointer;
-          /* mostrar hamburger */
-          display: inline;
-      }
-
-      /* barra de navegación */
-      header nav{
-          /* estado inicial - cuando carga la página */
-          transform: translateY( calc( -225px - 80px ) );
-          transition: 500ms;
-      }
-      .desplegado{
-          transform: translateY(0px);
-      }
-
-      header nav a{
-          width: 768px;
-          display: block;
-          padding: 8px;
-          text-align: center;
-          background-color: #E29086;
-      }
-      header nav a:hover{
-          background-color: #dd7b6d;
-      }
+  
+  header nav .nav-cosas {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+  }
+    header nav .nav-cosas a{
+       height: 45px;
+       font-size: large;
+       
     }
+  header div button{
+    border: white;
+    background-color: #fff;
+  }
+  .header .container .overlap-group {
+    width: 215px;
+    height: 47px;
+    top: 42px;
+    left: 80%;
+    display: flex;
+    padding: 5px 40px;
+    background-color: #4E8771;
+    color: whitesmoke;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px #7a624540;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    -webkit-animation: pulse 1.9s infinite;
+    opacity: 0.8;
+    margin-top: 75px;
+    margin-left: 130px;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+}
+
+  

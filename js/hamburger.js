@@ -1,6 +1,16 @@
-const nav = document.getElementsByClassName("nav-cosas")
-const barras = document.getElementById("#menu")
+const nav = document.getElementById("nav-cosas")
+
 
 barras.addEventListener("click", () => {
-    nav.classlist.add("visible")
+    
 })
+
+function desplegarMenu(){
+    const barras = document.getElementById("b-menu")
+    const desplegar = document.getElementById("nav-cosas")
+    
+        
+    desplegar.style.display = (desplegar.style.display === "none" || desplegar.style.display === "") ? "flex" : "none";
+    
+
+}
