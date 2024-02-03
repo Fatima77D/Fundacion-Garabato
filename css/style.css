@@ -1260,6 +1260,7 @@ ul li a:hover {
   .contenedor {
     height: 2500px;
   }
+}
 
 @media screen and (max-width: 768px) {
 
@@ -1293,7 +1294,7 @@ ul li a:hover {
     left: -50%;
   }
 
-  #figure-credicoop{
+  #figure-credicoop {
     height: 400px;
   }
 
