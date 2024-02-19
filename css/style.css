@@ -586,10 +586,6 @@ body {
   margin: 20px;
 }
 
-#card3 {
-  height: 500px;
-}
-
 .titulo {
   width: 100vw;
   height: 600px;
@@ -1475,11 +1471,6 @@ header div button{
 }
 
 @media screen and (max-width: 640px) {
-
-  /* SECCION SUMATE */
-  #card3 {
-    height: 400px;
-  }
 
   /* FOOTER */
 
