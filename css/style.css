@@ -1030,25 +1030,16 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
   width: 150px;
-  margin-bottom: 70px;
-  margin-right: 100px;
+  margin-bottom: 1.5em;
+  margin-right: 2em;
 }
 
 #contacto img {
-  width: 30px;
-  height: 30px;
+  width: 1.5em;
+  height: 1.5em;
   margin: 10px;
 }
 
-#contacto a:nth-child(4) {
-  margin-left: 20px;
-}
-
-/* #contacto img:hover {
-  width: 32px;
-  height: 32px;
-  margin: auto;
-} */
 
 /* FIN FOOTER */
 
@@ -1456,33 +1447,19 @@ header div button{
   }
 
   /* FOOTER */
-  #contacto {
-    margin-right: 100px;
-  }
-  .ubicacion-footer a {
+  
+  /* .ubicacion-footer a {
     font-size: 12px !important;
   }
 
   .enlaces-footer a:nth-child(5) {
     font-size: 10px;
     padding: 50px 0 0 0;
-  }
+  } */
 
 }
 
 @media screen and (max-width: 640px) {
-
-  /* FOOTER */
-
-  .redes-footer {
-    width: 200px;
-    margin-right: 50px;
-  }
-
-  .redes-footer img {
-    width: 25px;
-    height: 25px;
-  }
 
   /*INDEX*/
   .quienes-somos {
@@ -1556,14 +1533,14 @@ header div button{
     font-size: 16px;
   }
 
-  #contacto {
+  /* #contacto {
     width: 153px
   }
 
   #contacto img {
     width: 20px;
     height: 20px;
-  }
+  } */
 
   .logo-y-empresa-footer {
     margin-left: 0;
