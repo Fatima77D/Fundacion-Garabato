@@ -221,11 +221,6 @@ img[alt="Logo-Garabato"] {
 }
 
 
-
-
-
-
-
 .pulse-button:hover {
   -webkit-animation: none;
 }
@@ -448,7 +443,7 @@ body {
   max-width: 1000px;
   width: 100%;
   background: #FFF;
-  margin: 0 15px;
+  margin:80px 15px;
   padding: 40px;
   border-radius: 8px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
