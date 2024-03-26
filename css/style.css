@@ -55,6 +55,7 @@ img[alt="Logo-Garabato"] {
     display: inline;
   }
 
+  
   .header {
     width: 100%;
     height: 130px;
@@ -69,7 +70,7 @@ img[alt="Logo-Garabato"] {
     transition: 0.7s;
   }
 
-  .header .logo-y-empresa {
+  .header .logo-y-empresa{
     width: 450px;
     height: 90px;
     top: 19px;
@@ -208,16 +209,12 @@ img[alt="Logo-Garabato"] {
   line-height: 1.5;
 }
 
-
-
-
 .el-planeta-tierra {
   position: absolute;
-  width: 64px;
-  height: 64px;
-  top: 13px;
-  left: 17px;
-  object-fit: cover;
+  width: 70px;
+  height: 50px;
+  top: 23px;
+  left: 15px;
 }
 
 
@@ -975,9 +972,9 @@ footer {
 }
 
 .logo-garabato-footer {
+  margin-top: 10px;
   width: 80px;
-  height: 80px;
-
+  height:67px;
 }
 
 .titulo-fundacion-garabato-footer {
