@@ -755,12 +755,12 @@ img[alt="qr-credicoop"] {
 
 /* INICIO ESTILOS SECCION DONÁ CON CRIPTO */
 
-#aviso-pagina-cripto{
-  width: 100%; 
-  height: 500px; 
-  font-size: 25px; 
-  font-weight: bold; 
-  color: #276150; 
+#aviso-pagina-cripto {
+  width: 100%;
+  height: 500px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #276150;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -959,8 +959,8 @@ figure .trasera p {
 
 /* INICIO ESTILOS SECCIÓN CONTACTO */
 
-#txt_contacto{
-  width: 100%; 
+#txt_contacto {
+  width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
@@ -969,35 +969,35 @@ figure .trasera p {
   flex-wrap: wrap;
 }
 
-#txt_contacto span{
+#txt_contacto span {
   margin: 150px 200px 0 200px;
-  font-size: 1.5rem; 
-  font-weight: bold; 
-  color: #276150; 
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #276150;
 }
 
-.links-contacto{
-margin: 50px 0;
+.links-contacto {
+  margin: 50px 0;
 }
 
-.links-contacto a{
+.links-contacto a {
   margin: 10px;
   align-items: center;
   color: #276150;
   font-size: 1.4em;
-  font-weight: bold; 
+  font-weight: bold;
 }
 
-.links-contacto a:hover{
+.links-contacto a:hover {
   color: black;
   font-size: 1.6rem;
 }
 
-img[alt="img-contacto"]{
- width: 60%;
- height: 30%;
- margin: 40px 0;
- border-radius: 10px;
+img[alt="img-contacto"] {
+  width: 60%;
+  height: 30%;
+  margin: 40px 0;
+  border-radius: 10px;
 }
 
 /* FIN ESTILOS SECCIÓN CONTACTO */
@@ -1346,6 +1346,52 @@ header div button {
 
 @media screen and (max-width: 768px) {
 
+  /* RESPOSIVE HAMBURGESA */
+
+  header div button {
+    display: inline;
+    margin-left: 620px;
+    margin-top: 10px;
+    border: white;
+    background-color: #fff;
+  }
+
+  header nav .nav-cosas {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+  }
+
+  header nav .nav-cosas a {
+    height: 45px;
+    font-size: large;
+    color: #000;
+  }
+
+  .header .container .overlap-group {
+    width: 215px;
+    height: 47px;
+    top: 42px;
+    left: 80%;
+    display: flex;
+    padding: 5px 40px;
+    background-color: #4E8771;
+    color: whitesmoke;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px #7a624540;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    -webkit-animation: pulse 1.9s infinite;
+    opacity: 0.8;
+    margin-top: 75px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
   /* SECCION INDEX */
 
   .quienes-somos {
@@ -1525,6 +1571,11 @@ header div button {
 
 @media screen and (max-width: 640px) {
 
+  /* RESPOSIVE HAMBURGUESA */
+  header div button {
+    margin-left: 500px;
+  }
+
   /*INDEX*/
   .quienes-somos {
     width: 100%;
@@ -1590,9 +1641,17 @@ header div button {
     display: none;
   }
 
+  header div button {
+    margin-left: 500px;
+  }
+
 }
 
 @media screen and (max-width: 596px) {
+  /* RESPOSIVE HAMBURGUESA */
+  header div button {
+    margin-left: 400px;
+  }
   .contenedor-footer a {
     font-size: 16px;
   }
@@ -1621,6 +1680,11 @@ header div button {
 }
 
 @media screen and (max-width: 425px) {
+
+  /* RESPOSIVE HAMBURGUESA */
+  header div button {
+    margin-left: 350px;
+  }
 
   /*INDEX*/
 
@@ -1737,6 +1801,10 @@ header div button {
 }
 
 @media screen and (max-width: 320px) {
+  /* RESPOSIVE HAMBURGUESA */
+  header div button {
+    margin-left: 280px;
+  }
 
   /* CARRUSEL SOMOS */
   .carrusel .container-somos {
@@ -1803,57 +1871,4 @@ header div button {
     margin-bottom: 0;
   }
 
-}
-
-/*768px*/
-
-@media screen and (max-width: 768px) {
-
-  header div button {
-    display: inline;
-    margin-left: 350px;
-    margin-top: 10px;
-  }
-
-  header nav .nav-cosas {
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 75px;
-  }
-
-  header nav .nav-cosas a {
-    height: 45px;
-    font-size: large;
-    color: #000;
-  }
-
-  header div button {
-    border: white;
-    background-color: #fff;
-  }
-
-  .header .container .overlap-group {
-    width: 215px;
-    height: 47px;
-    top: 42px;
-    left: 80%;
-    display: flex;
-    padding: 5px 40px;
-    background-color: #4E8771;
-    color: whitesmoke;
-    border-radius: 30px;
-    box-shadow: 0px 4px 4px #7a624540;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-    -webkit-animation: pulse 1.9s infinite;
-    opacity: 0.8;
-    margin-top: 75px;
-
-    margin: auto;
-    margin-bottom: 50px;
-    margin-top: 50px;
-  }
 }
