@@ -957,6 +957,51 @@ figure .trasera p {
   font-size: 16px;
 }
 
+/* INICIO ESTILOS SECCIÓN CONTACTO */
+
+#txt_contacto{
+  width: 100%; 
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+#txt_contacto span{
+  margin: 150px 200px 0 200px;
+  font-size: 1.5rem; 
+  font-weight: bold; 
+  color: #276150; 
+}
+
+.links-contacto{
+margin: 50px 0;
+}
+
+.links-contacto a{
+  margin: 10px;
+  align-items: center;
+  color: #276150;
+  font-size: 1.4em;
+  font-weight: bold; 
+}
+
+.links-contacto a:hover{
+  color: black;
+  font-size: 1.6rem;
+}
+
+img[alt="img-contacto"]{
+ width: 60%;
+ height: 30%;
+ margin: 40px 0;
+ border-radius: 10px;
+}
+
+/* FIN ESTILOS SECCIÓN CONTACTO */
+
 
 /* INICIO ESTILOS FOOTER */
 
