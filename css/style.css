@@ -656,7 +656,7 @@ body {
 .overlay div {
   color: white;
   text-align: center;
-  margin: 10px;
+  margin: 5px;
 }
 
 
@@ -1460,7 +1460,7 @@ header div button {
   .card-seccion-sumate .overlay div {
     color: white;
     text-align: center;
-    margin: 10px;
+    margin: 5px;
   }
 
   .card-seccion-sumate .pie-de-pagina {
@@ -1485,9 +1485,9 @@ header div button {
     opacity: 0;
   }
 
-  p#info-formas-de-pago {
+  /* p#info-formas-de-pago {
     margin-bottom: 50px;
-  }
+  } */
 
   /* SECCION DONAR OTRO MONTO */
 
