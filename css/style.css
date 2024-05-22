@@ -1644,6 +1644,23 @@ header div button {
     margin-left: 500px;
   }
 
+  /* CONTACTO */
+  #txt_contacto{
+    display: block;
+  }
+  #txt_contacto span {
+    font-size: 1rem;
+    margin: 0 10px 0 10px;
+  }
+
+  .links-contacto a{
+    font-size: 1rem;
+  }
+
+  img[alt="img-contacto"]{
+    margin: 0 0 20px 0;
+  }
+
 }
 
 @media screen and (max-width: 596px) {
