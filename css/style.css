@@ -1537,9 +1537,6 @@ header div button {
     opacity: 0;
   }
 
-  /* p#info-formas-de-pago {
-    margin-bottom: 50px;
-  } */
 
   /* SECCION DONAR OTRO MONTO */
 
@@ -1588,15 +1585,6 @@ header div button {
   #contacto {
     justify-content: center;
   }
-
-  /* .ubicacion-footer a {
-    font-size: 12px !important;
-  }
-
-  .enlaces-footer a:nth-child(5) {
-    font-size: 10px;
-    padding: 50px 0 0 0;
-  } */
 
 }
 
@@ -1695,37 +1683,6 @@ header div button {
 
 }
 
-@media screen and (max-width: 596px) {
-  /* RESPOSIVE HAMBURGUESA */
-  header div button {
-    margin-left: 400px;
-  }
-  .contenedor-footer a {
-    font-size: 16px;
-  }
-
-  /* #contacto {
-    width: 153px
-  }
-
-  #contacto img {
-    width: 20px;
-    height: 20px;
-  } */
-
-  .logo-y-empresa-footer {
-    margin-left: 0;
-  }
-
-  .titulo-fundacion-garabato-footer {
-    font-size: 12px;
-  }
-
-  .logo-garabato-footer {
-    width: 50px;
-    height: 50px;
-  }
-}
 
 @media screen and (max-width: 425px) {
 
@@ -1805,47 +1762,7 @@ header div button {
     margin-top: 10px;
   }
 
-  /* FOOTER */
 
-  .logo-y-empresa-footer {
-    margin-left: 0px;
-  }
-
-  .logo-garabato-footer {
-    width: 50px;
-    height: 50px;
-  }
-
-  .enlaces-footer {
-    margin-top: 40px;
-  }
-
-  .titulo-fundacion-garabato-footer {
-    font-size: 14px;
-  }
-
-  .contenedor-footer a {
-    font-size: 16px;
-  }
-
-  .redes-footer {
-    width: 300px;
-    margin-right: 0px;
-  }
-
-  #contacto {
-    width: 170px;
-  }
-
-  #contacto a:nth-child(4) {
-    margin-left: 0px;
-  }
-
-  #contacto img {
-    width: 20px;
-    height: 20px;
-    margin: 10px;
-  }
 }
 
 @media screen and (max-width: 320px) {
@@ -1912,11 +1829,6 @@ header div button {
 
   .cta svg {
     top: 2px;
-  }
-
-  /* FOOTER */
-  .logo-y-empresa-footer {
-    margin-bottom: 0;
   }
 
 }
