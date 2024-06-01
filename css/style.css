@@ -1004,17 +1004,18 @@ img[alt="img-contacto"] {
 
 /* INICIO ESTILOS FOOTER */
 
-
 footer {
   width: 100%;
-  height: 250px;
   background-color: black;
+  padding: 20px 0;
 }
 
 .contenedor-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  padding: 0 50px;
 }
 
 .contenedor-footer a {
@@ -1027,19 +1028,9 @@ footer {
 
 .logo-y-empresa-footer {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
   margin-bottom: 30px;
-  margin-left: 50px;
-  width: 250px;
-}
-
-.ubicacion-footer {
-  margin-top: 40px;
-}
-
-.ubicacion-footer a {
-  font-size: 16px !important;
 }
 
 .logo-garabato-footer {
@@ -1049,22 +1040,33 @@ footer {
 }
 
 .titulo-fundacion-garabato-footer {
-  margin: 8px 0 0 16px;
+  margin: 8px 0 0 0;
   font-family: "Cairo", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 18px;
+  text-align: left;
+}
 
+.ubicacion-footer {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.ubicacion-footer a {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
 }
 
 .ubicacion-footer img[alt="ubicacion"] {
   width: 20px;
   height: 20px;
+  margin-right: 5px;
 }
 
 .ubicacion-footer a:hover {
   color: rgb(197, 223, 182);
-  font-size: 30px;
 }
 
 .enlaces-footer {
@@ -1074,35 +1076,40 @@ footer {
   margin-top: 20px;
 }
 
+.enlaces-footer a {
+  margin: 5px 0;
+}
+
 .enlaces-footer a:hover {
   color: #2fa338;
 }
 
-.enlaces-footer a:nth-child(5) {
-  font-size: 14px;
-  padding: 50px 0 0 0;
+#hecho_con_amor{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;  
+  color: #FFF;
+  text-decoration: none;
 }
 
-.enlaces-footer a:nth-child(5):hover {
+#hecho_con_amor:hover {
   color: pink;
 }
 
 #contacto {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   flex-wrap: wrap;
-  width: 150px;
-  margin-bottom: 1.5em;
-  margin-right: 2em;
+  margin: 20px 0;
+  width: auto;
 }
 
 #contacto img {
   width: 1.5em;
   height: 1.5em;
-  margin: 10px;
+  margin: 0 10px;
 }
-
 
 /* FIN FOOTER */
 
@@ -1556,6 +1563,31 @@ header div button {
   }
 
   /* FOOTER */
+  .contenedor-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-y-empresa-footer {
+    align-items: center;
+    text-align: center;
+  }
+
+  .titulo-fundacion-garabato-footer {
+    text-align: center;
+  }
+
+  .ubicacion-footer {
+    text-align: center;
+  }
+
+  .enlaces-footer {
+    text-align: center;
+  }
+
+  #contacto {
+    justify-content: center;
+  }
 
   /* .ubicacion-footer a {
     font-size: 12px !important;
