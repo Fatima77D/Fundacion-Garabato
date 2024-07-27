@@ -770,6 +770,37 @@ img[alt="qr-credicoop"] {
 
 /* FIN ESTILOS SECCION DONÁ CON CRIPTO */
 
+/* INICIO ESTILOS SECCION DESCARGABLES */
+
+#titulo-descargable {
+  margin-top: 150px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #276150;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center
+}
+
+.seccion-titulo-descargables {
+  width: 100%;
+  height: 300px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #276150;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.seccion-titulo-descargables ul li a {
+  background-color: #276150 !important;
+  color: #ffff !important;
+}
+
+/* FIN ESTILOS SECCION DESCARGABLES */
 
 /* ESTILOS SECCION ACCIONES */
 
@@ -1085,11 +1116,11 @@ footer {
   color: #2fa338;
 }
 
-#hecho_con_amor{
+#hecho_con_amor {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-top: 20px;  
+  margin-top: 20px;
   color: #FFF;
   text-decoration: none;
 }
@@ -1666,19 +1697,20 @@ header div button {
   }
 
   /* CONTACTO */
-  #txt_contacto{
+  #txt_contacto {
     display: block;
   }
+
   #txt_contacto span {
     font-size: 1rem;
     margin: 0 10px 0 10px;
   }
 
-  .links-contacto a{
+  .links-contacto a {
     font-size: 1rem;
   }
 
-  img[alt="img-contacto"]{
+  img[alt="img-contacto"] {
     margin: 0 0 20px 0;
   }
 
@@ -1767,6 +1799,7 @@ header div button {
 }
 
 @media screen and (max-width: 320px) {
+
   /* RESPOSIVE HAMBURGUESA */
   header div button {
     margin-left: 280px;
